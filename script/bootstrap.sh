@@ -22,7 +22,7 @@ ln -sf "${HOME}/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "
 ln -sf "$(dirname $(readlink $HOME/Applications/MacVim.app))/mvim" "/usr/local/bin/mvim"
 
 # Set OS X defaults
-(cd ../osx && sudo ./defaults.sh)
+(cd ../osx && ./defaults.sh)
 
 # Symlink dotfiles
 ./symlink.sh
