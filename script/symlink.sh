@@ -16,6 +16,7 @@ mkdir -p "${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
 
 # Sublime Text Packages
 ln -sf "${HOME}/.dotfiles/sublime/Package Control.sublime-settings" "${HOME}/Library/Application Support/Sublime Text 3/Packages/User" 2> /dev/null
+ln -sf "${HOME}/.dotfiles/sublime/Preferences.sublime-settings" "${HOME}/Library/Application Support/Sublime Text 3/Packages/User" 2> /dev/null
 
 # Create required Fish directories
 mkdir -p $HOME/.config/fish
