@@ -1,0 +1,34 @@
+# Make sure we’re using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
+
+# Taps
+tap homebrew/dupes
+tap phinze/cask
+tap caskroom/versions
+tap josegonzalez/homebrew-php
+tap jimbojsb/launchrocket
+
+# Install formulae
+install ack
+install brew-cask
+install fish
+install git
+install go
+install hub
+install node
+install php55
+install rbenv
+install redis
+install ruby-build
+install tree
+install ttfautohint
+install vim
+
+# Composer (requires php5x)
+install composer
+
+# Remove outdated versions from the cellar
+cleanup
