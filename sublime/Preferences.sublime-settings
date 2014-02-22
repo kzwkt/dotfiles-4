@@ -11,7 +11,6 @@
     [
         80, 120
     ],
-    "scroll_past_end": true,
     "tab_size": 4,
     "tab_completion": false,
     "theme": "Soda Light 3.sublime-theme",
