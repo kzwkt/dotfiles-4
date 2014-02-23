@@ -15,12 +15,6 @@ sudo cp -r ../etc/shells /etc/shells 2> /dev/null
 # Install Homebrew formulae and casks
 (cd ../brew && ./install.sh)
 
-# Symlink Sublime Text `subl` binary
-ln -sf "${HOME}/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
-
-# Symlink MacVim `mvim` binary
-ln -sf "$(dirname $(readlink $HOME/Applications/MacVim.app))/mvim" "/usr/local/bin/mvim"
-
 # Set OS X defaults
 (cd ../osx && ./defaults.sh)
 
