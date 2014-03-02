@@ -1,9 +1,7 @@
 # Native applications
 cask install alfred
 cask install f-lux
-cask install gfxcardstatus
 cask install google-drive
-cask install google-hangouts
 cask install gpgtools
 cask install hazel
 cask install hipchat
@@ -15,7 +13,6 @@ cask install mou
 cask install name-mangler
 cask install onepassword
 cask install rdio
-cask install robomongo
 cask install sequel-pro
 cask install silverlight
 cask install spectacle
