@@ -11,6 +11,19 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # General UI/UX                                                               #
 ###############################################################################
 
+# Menu bar: hide the Time Machine, Volume, User, and Bluetooth icons
+for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
+    defaults write "${domain}" dontAutoLoad -array \
+        "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+        "/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
+        "/System/Library/CoreServices/Menu Extras/User.menu"
+done
+defaults write com.apple.systemuiserver menuExtras -array \
+    "/System/Library/CoreServices/Menu Extras/AirPort.menu" \
+    "/System/Library/CoreServices/Menu Extras/Volume.menu" \
+    "/System/Library/CoreServices/Menu Extras/Battery.menu" \
+    "/System/Library/CoreServices/Menu Extras/Clock.menu"
+
 # Automatically quit printer app once the print jobs complete
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
@@ -127,6 +140,7 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 # Enable snap-to-grid for icons on the desktop and in other icon views
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
 # Set grid spacing for icons on the desktop
@@ -170,6 +184,9 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Reset Launchpad
+find ~/Library/Application\ Support/Dock -name "*.db" -maxdepth 1 -delete
+
 
 ###############################################################################
 # Mail                                                                        #
@@ -177,6 +194,14 @@ defaults write com.apple.dock autohide -bool true
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+# Display emails in threaded mode, sorted by date (oldest at the top)
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "DisplayInThreadedMode" -string "yes"
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortedDescending" -string "yes"
+defaults write com.apple.mail DraftsViewerAttributes -dict-add "SortOrder" -string "received-date"
+
+# Disable inline attachments (just show the icons)
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
 
 ###############################################################################
