@@ -1,5 +1,6 @@
 # Native applications
 cask install alfred
+cask install bartender
 cask install f-lux
 cask install google-drive
 cask install gpgtools
