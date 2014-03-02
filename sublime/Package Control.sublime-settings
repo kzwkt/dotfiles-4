@@ -9,6 +9,7 @@
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
+		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-jshint",
 		"Theme - Soda"
