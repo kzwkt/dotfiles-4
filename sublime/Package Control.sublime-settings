@@ -2,12 +2,16 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"DocBlockr",
 		"EditorConfig",
 		"LESS",
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-jshint",
 		"Theme - Soda"
 	]
 }
