@@ -27,7 +27,7 @@
     email = kasperisager@gmail.com
 
 [push]
-    default = matching
+	default = simple
 
 # URL shorthands
 [url "git@github.com:"]
