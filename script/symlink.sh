@@ -14,9 +14,10 @@ dotfile .vimrc
 # Create required Sublime Text directories
 mkdir -p "${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
 
-# Sublime Text Packages
+# Sublime Text Packages, Preferences and Keymaps
 ln -sf "${HOME}/.dotfiles/sublime/Package Control.sublime-settings" "${HOME}/Library/Application Support/Sublime Text 3/Packages/User" 2> /dev/null
 ln -sf "${HOME}/.dotfiles/sublime/Preferences.sublime-settings" "${HOME}/Library/Application Support/Sublime Text 3/Packages/User" 2> /dev/null
+ln -sf "${HOME}/.dotfiles/sublime/Default (OSX).sublime-keymap" "${HOME}/Library/Application Support/Sublime Text 3/Packages/User" 2> /dev/null
 
 # Symlink Sublime Text `subl` binary
 ln -sf "${HOME}/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"

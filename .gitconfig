@@ -27,7 +27,7 @@
     email = kasperisager@gmail.com
 
 [push]
-    default = matching
+    default = simple
 
 # URL shorthands
 [url "git@github.com:"]
@@ -60,3 +60,13 @@
 [mergetool]
     prompt = false
     keepBackup = false
+
+[alias]
+    switch = !legit switch \"$@\"
+    branches = !legit branches
+    sprout = !legit sprout \"$@\"
+    unpublish = !legit unpublish \"$@\"
+    harvest = !legit harvest \"$@\"
+    sync = !legit sync \"$@\"
+    publish = !legit publish \"$@\"
+    graft = !legit graft \"$@\"
