@@ -2,11 +2,16 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Better CoffeeScript",
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
+		"GitGutter",
+		"Handlebars",
 		"LESS",
+		"Markdown Extended",
 		"Sass",
+		"Smarty",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
