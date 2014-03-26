@@ -4,7 +4,7 @@
 
 [core]
     # Set default editor (for commit and merge messages)
-    editor = vim
+    editor = atom --wait
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
