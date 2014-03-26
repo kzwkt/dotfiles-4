@@ -4,13 +4,18 @@
 		"Alignment",
 		"DocBlockr",
 		"EditorConfig",
+		"fish-shell",
+		"GitGutter",
 		"LESS",
+		"Markdown Extended",
+		"Puppet",
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
 		"Theme - Soda"
 	]
