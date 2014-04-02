@@ -1,0 +1,11 @@
+packages: [
+  "atom-prettify"
+  "autoprefixer"
+  "editorconfig"
+  "file-icons"
+  "jshint"
+  "monokai"
+  "task-list"
+  "travis-ci-status"
+  "merge-conflicts"
+]

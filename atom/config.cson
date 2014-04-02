@@ -1,0 +1,26 @@
+'editor':
+  'fontSize': 12
+  'showIndentGuide': true
+  'softWrap': true
+  'autoIndent': false
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-light-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'disabledPackages': []
+  'excludeVcsIgnoredPaths': false
+'exception-reporting':
+  'userId': 'ec6d434a-30d4-be7e-1e9a-f4b7106f4d76'
+'release-notes':
+  'viewedVersion': '0.81.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'fff9537feeed0ead131d47cc3dd2e15a40bfca56'
