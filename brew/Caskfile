@@ -26,4 +26,3 @@ cask install vlc
 # Pre-release applications
 cask install google-chrome-canary
 cask install iterm2-nightly
-cask install sublime-text3
