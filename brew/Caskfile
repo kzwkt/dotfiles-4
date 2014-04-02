@@ -10,7 +10,6 @@ cask install hipchat
 cask install imageoptim
 cask install kaleidoscope
 cask install launchrocket
-cask install macvim
 cask install mou
 cask install name-mangler
 cask install onepassword

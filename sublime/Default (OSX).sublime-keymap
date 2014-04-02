@@ -1,4 +1,0 @@
-[
-    { "keys": ["super+ctrl+a"], "command": "alignment" },
-    { "keys": ["super+shift+a"], "command": "sublimelinter_show_all_errors" }
-]
