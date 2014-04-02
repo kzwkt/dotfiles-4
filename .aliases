@@ -23,6 +23,7 @@ alias lsd="ls -lF | grep '^d'"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias g="git"
+alias gh="github"
 alias h="history"
 alias j="jobs"
 
