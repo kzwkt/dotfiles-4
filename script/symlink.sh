@@ -24,13 +24,13 @@ ln -sf $HOME/.dotfiles/atom/styles.less $HOME/.atom 2> /dev/null
 
 # Fish config and functions directory
 ln -sf $HOME/.dotfiles/fish/config.fish $HOME/.config/fish 2> /dev/null
-ln -sf $HOME/.dotfiles/fish/functions $HOME/.config/fish/functions 2> /dev/null
+ln -sf $HOME/.dotfiles/fish/functions $HOME/.config/fish 2> /dev/null
 
 # Create required Vim directories
 mkdir -p $HOME/.vim/{backups,swaps,undo}
 
 # Vim color schemes and bundles
-ln -sf $HOME/.dotfiles/vim/colors $HOME/.vim/colors 2> /dev/null
-ln -sf $HOME/.dotfiles/vim/bundle $HOME/.vim/bundle 2> /dev/null
+ln -sf $HOME/.dotfiles/vim/colors $HOME/.vim 2> /dev/null
+ln -sf $HOME/.dotfiles/vim/bundle $HOME/.vim 2> /dev/null
 
 unset dotfile
