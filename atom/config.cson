@@ -6,7 +6,7 @@
   'tabLength': 4
 'core':
   'themes': [
-    'atom-light-ui'
+    'atom-dark-ui'
     'monokai'
   ]
   'ignoredNames': [
