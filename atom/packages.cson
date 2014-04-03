@@ -1,5 +1,9 @@
 packages: [
+  # Master of ceremonies
+  "package-sync"
+
   "atom-prettify"
+  "auto-detect-indentation"
   "autoprefixer"
   "editorconfig"
   "file-icons"
@@ -8,4 +12,11 @@ packages: [
   "task-list"
   "travis-ci-status"
   "merge-conflicts"
+
+  # Task helpers
+  "grunt-helper"
+  "gulp-helper"
+
+  # Languages
+  "language-fish-shell"
 ]
