@@ -2,16 +2,19 @@ packages: [
   # Master of ceremonies
   "package-sync"
 
-  "atom-prettify"
   "auto-detect-indentation"
-  "autoprefixer"
   "editorconfig"
-  "file-icons"
-  "jshint"
-  "monokai"
   "task-list"
-  "travis-ci-status"
+  "zentabs"
+
+  # Git integration
   "merge-conflicts"
+
+  # Themes
+  "monokai"
+
+  # Linters
+  "atom-lint"
 
   # Task helpers
   "grunt-helper"

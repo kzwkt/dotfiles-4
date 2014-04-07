@@ -1,0 +1,9 @@
+'.source.less':
+
+  'Horizontal rule':
+    'prefix': 'rule'
+    'body': '// ----------------------------------------------------------------------------- \n\n$1'
+
+  'KSS Comment':
+    'prefix': 'kss'
+    'body': '// $1\n//\n// Styleguide ${2:#}'

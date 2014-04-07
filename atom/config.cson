@@ -1,9 +1,12 @@
 'editor':
   'fontSize': 12
-  'showIndentGuide': true
   'softWrap': true
-  'autoIndent': false
+  'autoIndent': true
+  'showIndentGuide': true
+  'normalizeIndentOnPaste': true
   'tabLength': 4
+  'whitespace':
+    'ensureSingleTrailingNewline': true
 'core':
   'themes': [
     'atom-dark-ui'
@@ -19,8 +22,13 @@
 'exception-reporting':
   'userId': 'ec6d434a-30d4-be7e-1e9a-f4b7106f4d76'
 'release-notes':
-  'viewedVersion': '0.81.0'
+  'viewedVersion': '0.83.0'
 'welcome':
   'showOnStartup': false
 'metrics':
   'userId': 'fff9537feeed0ead131d47cc3dd2e15a40bfca56'
+'atom-lint':
+  'jshint':
+    'path': '/usr/local/bin/jshint'
+  'csslint':
+    'path': '/usr/local/bin/csslint'
