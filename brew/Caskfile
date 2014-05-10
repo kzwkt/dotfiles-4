@@ -1,6 +1,6 @@
 # Native applications
 cask install alfred
-cask install f-lux
+cask install flux
 cask install feeds
 cask install google-drive
 cask install github
