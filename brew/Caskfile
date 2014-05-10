@@ -1,5 +1,6 @@
 # Native applications
 cask install alfred
+cask install cloud
 cask install flux
 cask install feeds
 cask install google-drive
