@@ -1,3 +1,9 @@
+'*':
+
+  'DocBlock':
+    'prefix': '\/**'
+    'body': '\/**\n * $1\n *\/'
+
 '.source.less':
 
   'Horizontal rule':
