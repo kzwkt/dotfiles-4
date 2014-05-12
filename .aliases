@@ -1,6 +1,9 @@
 # Use `hub` as git wrapper (http://defunkt.github.com/hub/)
 alias git="hub"
 
+# Be nice
+alias please="sudo"
+
 # Node.js Generator support
 alias node="node --harmony"
 
