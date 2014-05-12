@@ -23,5 +23,8 @@ packages: [
 
   # Languages
   "language-fish-shell"
+  "language-mustache"
+  "language-eco"
+  "language-ejs"
   "language-handlebars"
 ]

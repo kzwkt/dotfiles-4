@@ -1,6 +1,7 @@
 # Native applications
 cask install alfred
-cask install f-lux
+cask install cloud
+cask install flux
 cask install feeds
 cask install google-drive
 cask install github
@@ -10,7 +11,6 @@ cask install hipchat
 cask install imageoptim
 cask install kaleidoscope
 cask install launchrocket
-cask install mou
 cask install name-mangler
 cask install onepassword
 cask install rdio

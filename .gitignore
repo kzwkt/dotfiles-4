@@ -38,6 +38,8 @@ Thumbs.db
 *.sqlite
 
 # Folders to ignore
+tmp
+.tmp
 .bundle
 node_modules
 bower_components
