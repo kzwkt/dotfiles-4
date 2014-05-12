@@ -1,5 +1,4 @@
 'editor':
-  'fontSize': 12
   'softWrap': true
   'autoIndent': true
   'showIndentGuide': true
@@ -7,28 +6,21 @@
   'tabLength': 4
   'whitespace':
     'ensureSingleTrailingNewline': true
+  'fontSize': 12
+  'lineHeight': 1.5
+  'showInvisibles': true
 'core':
   'themes': [
     'atom-dark-ui'
     'monokai'
   ]
-  'ignoredNames': [
-    '.git'
-    '.svn'
-    '.DS_Store'
-  ]
   'disabledPackages': []
   'excludeVcsIgnoredPaths': false
-'exception-reporting':
-  'userId': 'ec6d434a-30d4-be7e-1e9a-f4b7106f4d76'
 'release-notes':
-  'viewedVersion': '0.83.0'
+  'viewedVersion': '0.94.0'
+'exception-reporting':
+  'userId': '2410e788-870e-51f3-105c-1b43dc19d19e'
 'welcome':
   'showOnStartup': false
 'metrics':
   'userId': 'fff9537feeed0ead131d47cc3dd2e15a40bfca56'
-'atom-lint':
-  'jshint':
-    'path': '/usr/local/bin/jshint'
-  'csslint':
-    'path': '/usr/local/bin/csslint'
