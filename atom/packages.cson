@@ -6,6 +6,7 @@ packages: [
   "editorconfig"
   "task-list"
   "zentabs"
+  "project-colorize"
 
   # Git integration
   "merge-conflicts"
@@ -22,4 +23,5 @@ packages: [
 
   # Languages
   "language-fish-shell"
+  "language-handlebars"
 ]
