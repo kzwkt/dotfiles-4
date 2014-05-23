@@ -6,7 +6,6 @@ packages: [
   "editorconfig"
   "task-list"
   "zentabs"
-  "project-colorize"
 
   # Git integration
   "merge-conflicts"
