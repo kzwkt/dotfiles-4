@@ -2,9 +2,7 @@ packages: [
   # Master of ceremonies
   "package-sync"
 
-  "auto-detect-indentation"
   "editorconfig"
-  "task-list"
   "zentabs"
 
   # Git integration
@@ -14,16 +12,18 @@ packages: [
   "monokai"
 
   # Linters
-  "atom-lint"
+  "linter"
+  "linter-jshint"
+  "linter-csslint"
 
   # Task helpers
   "grunt-helper"
   "gulp-helper"
 
   # Languages
-  "language-fish-shell"
-  "language-mustache"
   "language-eco"
   "language-ejs"
+  "language-fish-shell"
   "language-handlebars"
+  "language-mustache"
 ]
