@@ -13,8 +13,12 @@ packages: [
 
   # Linters
   "linter"
-  "linter-jshint"
+  "linter-coffeelint"
   "linter-csslint"
+  "linter-jscs"
+  "linter-jshint"
+  "linter-phpcs"
+  "linter-scss-lint"
 
   # Task helpers
   "grunt-helper"
