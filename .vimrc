@@ -63,7 +63,7 @@ set secure
 " Enable syntax highlighting
 syntax on
 
-colorscheme molokai
+colorscheme monokai
 set background=dark
 set antialias
 
