@@ -3,7 +3,7 @@
   'autoIndent': true
   'showIndentGuide': true
   'normalizeIndentOnPaste': true
-  'tabLength': 4
+  'tabLength': 2
   'whitespace':
     'ensureSingleTrailingNewline': true
   'fontSize': 12
