@@ -64,6 +64,7 @@ set secure
 syntax on
 
 colorscheme monokai
+set t_Co=256
 set background=dark
 set antialias
 
@@ -72,7 +73,6 @@ if has("gui_running")
     set guifont=Menlo:h12
     set guioptions-=T
     set guioptions+=e
-    set t_Co=256
     set guitablabel=%M\ %t
 endif
 
