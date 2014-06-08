@@ -8,7 +8,6 @@ upgrade
 tap homebrew/dupes
 tap phinze/cask
 tap caskroom/versions
-tap jimbojsb/launchrocket
 
 # Install formulae
 install ack
