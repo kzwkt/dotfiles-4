@@ -63,8 +63,7 @@ set secure
 " Enable syntax highlighting
 syntax on
 
-colorscheme molokai
-let g:molokai_original = 1
+colorscheme smyck
 let g:rehash256 = 1
 
 set t_Co=256
