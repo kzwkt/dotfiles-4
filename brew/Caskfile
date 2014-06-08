@@ -19,6 +19,3 @@ cask install transmission
 cask install vagrant
 cask install virtualbox
 cask install vlc
-
-# Pre-release applications
-cask install google-chrome-canary
