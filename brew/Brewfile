@@ -12,6 +12,7 @@ tap caskroom/versions
 # Install formulae
 install ack
 install brew-cask
+install docker
 install fish
 install git
 install go
