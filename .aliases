@@ -4,7 +4,8 @@ alias git="hub"
 # Be nice
 alias please="sudo"
 
-# Node.js Generator support
+# Node.js
+alias nls="npm list --depth=0"
 alias node="node --harmony"
 
 # Easier navigation: .., ..., .... and .....
