@@ -6,9 +6,10 @@
   'tabLength': 2
   'whitespace':
     'ensureSingleTrailingNewline': true
-  'fontSize': 12
+  'fontSize': 14
   'lineHeight': 1.5
   'showInvisibles': true
+  'fontFamily': 'Menlo'
 'core':
   'themes': [
     'yosemite-unity-ui'

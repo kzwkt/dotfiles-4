@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function dotfile {
-    ln -sf .dotfiles/$1 ~/$1 2> /dev/null
+  ln -sf .dotfiles/$1 ~/$1 2> /dev/null
 }
 
 # Symlink dotfiles

@@ -7,7 +7,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 function npm_package {
-	sudo npm install -g $1
+  sudo npm install -g $1
 }
 
 npm_package cordova
