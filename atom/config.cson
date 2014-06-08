@@ -11,7 +11,7 @@
   'showInvisibles': true
 'core':
   'themes': [
-    'atom-dark-ui'
+    'yosemite-unity-ui'
     'monokai'
   ]
   'disabledPackages': []
