@@ -71,5 +71,5 @@ alias reload="exec $SHELL -l"
 # Pipe public key to clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
-# Fix Vagrant/Virtual Box fucking up under Mavericks
-alias vbrestart="sudo /Library/Application\ Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh restart"
+# VirtualBox aliases
+alias vbm="VBoxManage"
