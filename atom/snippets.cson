@@ -1,14 +1,4 @@
-'*':
-
-  'DocBlock':
-    'prefix': '\/**'
-    'body': '\/**\n * $1\n *\/'
-
 '.source.less':
-
-  'Horizontal rule':
-    'prefix': 'rule'
-    'body': '// ----------------------------------------------------------------------------- \n\n$1'
 
   'KSS Comment':
     'prefix': 'kss'
