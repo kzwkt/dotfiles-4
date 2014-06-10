@@ -12,7 +12,7 @@
   'fontFamily': 'Menlo'
 'core':
   'themes': [
-    'yosemite-unity-ui'
+    'atom-dark-ui'
     'monokai'
   ]
   'disabledPackages': []
