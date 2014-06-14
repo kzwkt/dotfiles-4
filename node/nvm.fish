@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/bin/env fish
 
 # Install nvm-fish
 git clone https://github.com/Alex7Kom/nvm-fish.git $HOME/.nvm
