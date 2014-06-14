@@ -24,6 +24,9 @@ sudo cp -r ../etc/shells /etc/shells 2> /dev/null
 # Install Pathogen
 (cd ../vim && ./pathogen.sh)
 
+# Install nvm-fish
+(cd ../node && ./nvm.fish)
+
 # Set my default shell
 sudo chsh -s /usr/local/bin/fish kasperisager 2> /dev/null
 

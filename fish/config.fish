@@ -1,5 +1,8 @@
 # Aliases shared between fish and bash
-. ~/.aliases
+. "$HOME/.aliases"
+
+# Load nvm-fish
+. "$HOME/.nvm/nvm.fish"
 
 # Report terminal type
 set -x TERM "xterm-256color"
