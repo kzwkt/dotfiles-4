@@ -17,6 +17,7 @@ install fish
 install git
 install go
 install hub
+install node
 install tree
 install vim
 
