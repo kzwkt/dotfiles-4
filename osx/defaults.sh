@@ -171,6 +171,9 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Reset LaunchPad at each login. OCD and all
+defaults write com.apple.dock ResetLaunchPad -bool true
+
 
 ###############################################################################
 # Mail                                                                        #
