@@ -170,6 +170,9 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Reset Launchpad, but keep the desktop wallpaper intact
+find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
+
 # Reset LaunchPad at each login. OCD and all
 defaults write com.apple.dock ResetLaunchPad -bool true
 
