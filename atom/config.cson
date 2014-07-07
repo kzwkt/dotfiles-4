@@ -15,7 +15,9 @@
     'atom-dark-ui'
     'monokai'
   ]
-  'disabledPackages': []
+  'disabledPackages': [
+    'linter-jscs'
+  ]
   'excludeVcsIgnoredPaths': false
 'release-notes':
   'viewedVersion': '0.95.0'
