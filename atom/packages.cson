@@ -5,6 +5,7 @@ packages: [
   "editorconfig"
   "docblockr"
   "zentabs"
+  "regex-railroad-diagram"
 
   # Git integration
   "merge-conflicts"
@@ -32,4 +33,6 @@ packages: [
   "language-fish-shell"
   "language-handlebars"
   "language-mustache"
+  "language-puppet"
+  "language-viml"
 ]
