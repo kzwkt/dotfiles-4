@@ -30,10 +30,6 @@ ln -sf $HOME/.dotfiles/fish/config.fish $HOME/.config/fish/ 2> /dev/null
 ln -sf $HOME/.dotfiles/fish/functions $HOME/.config/fish/ 2> /dev/null
 
 # Create required Vim directories
-mkdir -p $HOME/.vim/{backups,swaps,undo}
-
-# Vim color schemes and bundles
-ln -sf $HOME/.dotfiles/vim/colors $HOME/.vim/ 2> /dev/null
-ln -sf $HOME/.dotfiles/vim/bundle $HOME/.vim/ 2> /dev/null
+mkdir -p $HOME/.vim/{backups,swaps,undo,bundle}
 
 unset dotfile

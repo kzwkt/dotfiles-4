@@ -21,8 +21,8 @@ sudo cp -r ../etc/shells /etc/shells 2> /dev/null
 # Symlink dotfiles
 ./symlink.sh
 
-# Install Pathogen
-(cd ../vim && ./pathogen.sh)
+# Install Vundle
+(cd ../vim && ./vundle.sh)
 
 # Set my default shell
 sudo chsh -s /usr/local/bin/fish kasperisager 2> /dev/null

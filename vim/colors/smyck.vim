@@ -1,1 +1,0 @@
-../../smyck/smyck.vim
