@@ -23,6 +23,7 @@ Bundle "AndrewRadev/vim-eco"
 Bundle "kchmck/vim-coffee-script"
 Bundle "flazz/vim-colorschemes"
 Bundle "bling/vim-airline"
+Bundle "kien/ctrlp.vim"
 
 call vundle#end()
 
@@ -77,8 +78,12 @@ set showmode                    " Show the current mode
 set title                       " Show the filename in the window titlebar
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Airline settings
+" Plugin settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:airline_left_sep=""       " Don't use fancy separators
-let g:airline_right_sep=""
+" Airline
+let g:airline_left_sep = ""       " Don't use fancy separators
+let g:airline_right_sep = ""
+
+" CtrlP
+let g:ctrlp_show_hidden = 1       " Show hidden files
