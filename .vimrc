@@ -87,3 +87,4 @@ let g:airline_right_sep = ""
 
 " CtrlP
 let g:ctrlp_show_hidden = 1       " Show hidden files
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
