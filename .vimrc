@@ -22,6 +22,7 @@ Bundle "groenewege/vim-less"
 Bundle "AndrewRadev/vim-eco"
 Bundle "kchmck/vim-coffee-script"
 Bundle "flazz/vim-colorschemes"
+Bundle "bling/vim-airline"
 
 call vundle#end()
 
@@ -74,3 +75,10 @@ set nostartofline               " Don't reset cursor to start of line when movin
 set shortmess=atI               " Don't show the intro message when starting Vim
 set showmode                    " Show the current mode
 set title                       " Show the filename in the window titlebar
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Airline settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:airline_left_sep=""       " Don't use fancy separators
+let g:airline_right_sep=""
