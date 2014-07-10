@@ -17,6 +17,7 @@
   ]
   'disabledPackages': [
     'linter-jscs'
+    'linter-phpcs'
   ]
   'excludeVcsIgnoredPaths': false
 'release-notes':
