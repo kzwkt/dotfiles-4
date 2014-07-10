@@ -12,7 +12,6 @@ cask install name-mangler
 cask install onepassword
 cask install rdio
 cask install sequel-pro
-cask install silverlight
 cask install spectacle
 cask install the-unarchiver
 cask install transmission
