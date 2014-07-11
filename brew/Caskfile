@@ -1,6 +1,5 @@
 # Native applications
 cask install atom
-cask install cloud
 cask install flux
 cask install github
 cask install gpgtools
