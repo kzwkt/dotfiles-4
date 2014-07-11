@@ -30,19 +30,14 @@
     default = simple
 
 [diff]
-    tool = Kaleidoscope
-[difftool "Kaleidoscope"]
-    cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+    tool = vimdiff
 [difftool]
     prompt = false
 
 [merge]
     # Include summaries of merged commits in newly created merge commit messages
     log = true
-    tool = Kaleidoscope
-[mergetool "Kaleidoscope"]
-    cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-    trustExitCode = true
+    tool = vimdiff
 [mergetool]
     prompt = false
     keepBackup = false
