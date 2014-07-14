@@ -24,6 +24,7 @@ Bundle "kchmck/vim-coffee-script"
 Bundle "flazz/vim-colorschemes"
 Bundle "bling/vim-airline"
 Bundle "kien/ctrlp.vim"
+Bundle "ekalinin/Dockerfile.vim"
 
 call vundle#end()
 
