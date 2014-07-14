@@ -2,8 +2,10 @@ packages: [
   # Master of ceremonies
   "package-sync"
 
+  # General
   "editorconfig"
   "docblockr"
+  "vim-mode"
   "zentabs"
   "regex-railroad-diagram"
 
