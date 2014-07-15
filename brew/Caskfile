@@ -1,8 +1,8 @@
 # Native applications
 cask install atom
-cask install chromium
 cask install flux
 cask install github
+cask install google-chrome-dev
 cask install gpgtools
 cask install hazel
 cask install hipchat
