@@ -7,7 +7,6 @@ cask install gpgtools
 cask install hazel
 cask install hipchat
 cask install imageoptim
-cask install name-mangler
 cask install onepassword
 cask install rdio
 cask install sequel-pro
