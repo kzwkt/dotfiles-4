@@ -24,7 +24,6 @@ include atom.sh
 
 # OS specfic
 case "$OSTYPE" in
-  # OS X
   darwin*)
     include brew.sh
     include cask.sh
