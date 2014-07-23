@@ -17,6 +17,11 @@ destination $HOME/.vim/bundle
 
 # Insert mode helpers
   ok github Townk/vim-autoclose
+  ok github tpope/vim-surround
+
+# Text manipulation
+  ok github tpope/vim-commentary
+  ok github junegunn/vim-easy-align
 
 # Git helpers
   ok github mhinz/vim-signify
