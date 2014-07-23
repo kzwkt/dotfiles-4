@@ -1,1 +1,5 @@
-__Kasper does dotfiles__
+__Kasper does dotfiles:__
+
+```sh
+./dotfiles satisfy
+```
