@@ -22,11 +22,11 @@
   issues = !ghi
 
 [user]
-  name = kasperisager
+  name = Kasper Isager
   email = kasperisager@gmail.com
 
 [github]
-  name = kasperisager
+  name = Kasper Isager
   email = kasperisager@gmail.com
 
 [push]

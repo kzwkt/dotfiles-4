@@ -1,39 +1,17 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Vundle
+" Pathogen
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set nocompatible
-set shell=/bin/sh
-filetype off
-
-set rtp+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-
-Bundle "gmarik/Vundle.vim"
-
-Bundle "editorconfig/editorconfig-vim"
-Bundle "Townk/vim-autoclose"
-Bundle "airblade/vim-gitgutter"
-Bundle "tpope/vim-fugitive"
-Bundle "tpope/vim-vinegar"
-Bundle "tpope/vim-sensible"
-Bundle "groenewege/vim-less"
-Bundle "AndrewRadev/vim-eco"
-Bundle "kchmck/vim-coffee-script"
-Bundle "flazz/vim-colorschemes"
-Bundle "bling/vim-airline"
-Bundle "kien/ctrlp.vim"
-Bundle "ekalinin/Dockerfile.vim"
-Bundle "pangloss/vim-javascript"
-
-call vundle#end()
-
-filetype plugin indent on
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set nocompatible
+set shell=/bin/sh               " Ensure use of POSIX compliant shell
+filetype plugin indent on
 
 set ignorecase                  " Ignore case when searching
 set smartcase                   " When searching try to be smart about cases
@@ -84,9 +62,9 @@ set title                       " Show the filename in the window titlebar
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Airline
-let g:airline_left_sep = ""       " Don't use fancy separators
+let g:airline_left_sep = ""     " Don't use fancy separators
 let g:airline_right_sep = ""
 
 " CtrlP
-let g:ctrlp_show_hidden = 1       " Show hidden files
+let g:ctrlp_show_hidden = 1     " Show hidden files
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
