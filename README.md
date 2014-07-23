@@ -1,1 +1,1 @@
-__Kasper does dotfiles:__ `./dotfiles satisfy`
+__Kasper does dotfiles:__ `$ ./dotfiles satisfy`
