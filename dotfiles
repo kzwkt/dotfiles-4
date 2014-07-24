@@ -1,42 +1,15 @@
 #!/usr/bin/env bash
 
-bork_operation=$1
-bork_file=$2
-
 # Install Bork
 if [ ! -d bork/.git ]; then
   git clone https://github.com/mattly/bork.git
 fi
 
-# Load Bork
-. bork/bin/bork 2> /dev/null
+# Directory for `include`
+export BORK_SCRIPT_DIR=`pwd`
 
-if [[ -z $bork_file ]]; then
-  # Directory for `include`
-  export BORK_SCRIPT_DIR=`pwd`
-
-  case $bork_operation in
-    status|satisfy)
-      destination $HOME/.dotfiles
-
-      # Update Bork
-      ok github mattly/bork
-
-      # All UNIXes
-      include configs.sh
-      include etc.sh
-      include vim.sh
-      include fish.sh
-      include atom.sh
-
-      # OS specfic
-      case $OSTYPE in
-        darwin*)
-          include brew.sh
-          include cask.sh
-          include osx.sh
-          ;;
-      esac
-      ;;
-  esac
+if [ -z $2 ]; then
+  bork/bin/bork $1 bootstrap.sh
+else
+  bork/bin/bork $1 $2
 fi
