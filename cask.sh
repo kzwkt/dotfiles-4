@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Install/update Homebrew
-ok brew
-
 # Taps
 bake brew tap caskroom/cask
 bake brew tap caskroom/versions
