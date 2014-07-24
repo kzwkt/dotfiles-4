@@ -95,10 +95,8 @@ ok defaults com.apple.finder WarnOnEmptyTrash bool false
 # Show indicator lights for open applications in the Dock
 ok defaults com.apple.dock show-process-indicators bool true
 
-# Wipe all (default) app icons from the Dock
-# This is only really useful when setting up a new Mac, or if you don’t use
-# the Dock to launch apps.
-ok defaults com.apple.dock persistent-apps array
+# Wipe all app icons from the Dock
+ok defaults com.apple.dock persistent-apps bool false
 
 # Disable Dashboard
 ok defaults com.apple.dashboard mcx-disabled bool true
