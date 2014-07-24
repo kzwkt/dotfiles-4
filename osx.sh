@@ -8,7 +8,7 @@
 ok defaults com.apple.LaunchServices LSQuarantine bool false
 
 # Disable Resume system-wide
-ok defaults NSGlobalDomain NSQuitAlwaysKeepsWindows bool false
+ok defaults -g NSQuitAlwaysKeepsWindows bool false
 
 # Disable the crash reporter
 ok defaults com.apple.CrashReporter DialogType string "none"
@@ -17,10 +17,10 @@ ok defaults com.apple.CrashReporter DialogType string "none"
 ok defaults com.apple.SoftwareUpdate ScheduleFrequency integer 1
 
 # Disable smart quotes as they’re annoying when typing code
-ok defaults NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled bool false
+ok defaults -g NSAutomaticQuoteSubstitutionEnabled bool false
 
 # Disable smart dashes as they’re annoying when typing code
-ok defaults NSGlobalDomain NSAutomaticDashSubstitutionEnabled bool false
+ok defaults -g NSAutomaticDashSubstitutionEnabled bool false
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -28,13 +28,13 @@ ok defaults NSGlobalDomain NSAutomaticDashSubstitutionEnabled bool false
 
 # Trackpad: enable tap to click for this user and for the login screen
 ok defaults com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking bool true
-ok defaults NSGlobalDomain com.apple.mouse.tapBehavior integer 1
+ok defaults -g com.apple.mouse.tapBehavior integer 1
 
 # Disable press-and-hold for keys in favor of key repeat
-ok defaults NSGlobalDomain ApplePressAndHoldEnabled bool false
+ok defaults -g ApplePressAndHoldEnabled bool false
 
 # Set a blazingly fast keyboard repeat rate
-ok defaults NSGlobalDomain KeyRepeat integer 0
+ok defaults -g KeyRepeat integer 0
 
 ###############################################################################
 # Screen                                                                      #
@@ -54,7 +54,7 @@ ok defaults com.apple.screencapture type string "png"
 ok defaults com.apple.screencapture disable-shadow bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
-ok defaults NSGlobalDomain AppleFontSmoothing integer 2
+ok defaults -g AppleFontSmoothing integer 2
 
 ###############################################################################
 # Finder                                                                      #
@@ -67,7 +67,7 @@ ok defaults com.apple.finder ShowMountedServersOnDesktop bool true
 ok defaults com.apple.finder ShowRemovableMediaOnDesktop bool true
 
 # Finder: show all filename extensions
-ok defaults NSGlobalDomain AppleShowAllExtensions bool true
+ok defaults -g AppleShowAllExtensions bool true
 
 # Finder: allow text selection in Quick Look
 ok defaults com.apple.finder QLEnableTextSelection bool true
