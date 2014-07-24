@@ -8,5 +8,5 @@ fi
 if [ -z $2 ]; then
   bork/bin/bork $1 bootstrap.sh
 else
-  bork/bin/bork $argv
+  bork/bin/bork $@
 fi
