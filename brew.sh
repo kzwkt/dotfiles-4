@@ -10,6 +10,7 @@ bake brew tap homebrew/dupes
 ok brew ack
 ok brew brew-cask
 ok brew docker
+ok brew fig
 ok brew fish
 ok brew ghi
 ok brew git
