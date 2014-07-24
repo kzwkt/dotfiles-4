@@ -5,11 +5,8 @@ if [ ! -d bork/.git ]; then
   git clone https://github.com/mattly/bork.git
 fi
 
-# Directory for `include`
-export BORK_SCRIPT_DIR=`pwd`
-
 if [ -z $2 ]; then
   bork/bin/bork $1 bootstrap.sh
 else
-  bork/bin/bork $1 $2
+  bork/bin/bork $argv
 fi
