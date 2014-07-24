@@ -36,6 +36,9 @@ ok defaults -g ApplePressAndHoldEnabled bool false
 # Set a blazingly fast keyboard repeat rate
 ok defaults -g KeyRepeat integer 0
 
+# Increase speed of trackpad cursor movement
+ok defaults -g com.apple.trackpad.scaling float 3
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
