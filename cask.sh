@@ -4,8 +4,8 @@
 ok brew
 
 # Taps
-brew tap caskroom/cask
-brew tap caskroom/versions
+bake brew tap caskroom/cask
+bake brew tap caskroom/versions
 
 # Install Homebrew Cask
 ok brew brew-cask
@@ -29,5 +29,5 @@ ok cask virtualbox
 ok cask vlc
 
 # Cleanup
-brew cleanup
-brew cask cleanup
+bake brew cleanup
+bake brew cask cleanup

@@ -4,7 +4,7 @@
 ok brew
 
 # Taps
-brew tap homebrew/dupes
+bake brew tap homebrew/dupes
 
 # Install formulae
 ok brew ack
@@ -20,4 +20,4 @@ ok brew tree
 ok brew vim
 
 # Cleanup
-brew cleanup
+bake brew cleanup
