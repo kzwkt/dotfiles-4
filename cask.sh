@@ -3,6 +3,7 @@
 # Taps
 bake brew tap caskroom/cask
 bake brew tap caskroom/versions
+bake brew tap casidiablo/custom
 
 # Install Homebrew Cask
 ok brew brew-cask
@@ -17,6 +18,7 @@ ok cask hazel
 ok cask hipchat
 ok cask imageoptim
 ok cask onepassword
+ok cask popcorn-time
 ok cask rdio
 ok cask spectacle
 ok cask the-unarchiver
