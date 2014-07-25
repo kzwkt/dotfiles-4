@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Install Bork
 if [ ! -d bork/.git ]; then
   git clone https://github.com/mattly/bork.git
 fi
