@@ -15,6 +15,7 @@ ok brew fish
 ok brew ghi
 ok brew git
 ok brew go
+ok brew httpie
 ok brew hub
 ok brew node
 ok brew tree
