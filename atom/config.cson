@@ -20,7 +20,6 @@
     'linter-phpcs'
   ]
   'excludeVcsIgnoredPaths': false
-  'useReactEditor': true
 'release-notes':
   'viewedVersion': '0.95.0'
 'exception-reporting':
