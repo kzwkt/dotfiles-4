@@ -9,23 +9,17 @@ execute pathogen#infect()
 " General settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set nocompatible
-set shell=/bin/sh               " Ensure use of POSIX compliant shell
-filetype plugin indent on
+runtime! plugin/sensible.vim    " Load sensible defaults
 
 set ignorecase                  " Ignore case when searching
 set smartcase                   " When searching try to be smart about cases
 
 set hlsearch                    " Highlight search results
-set incsearch                   " Makes search act like search in modern browsers
 
 set lazyredraw                  " Don't redraw while executing macros (good performance config)
 
-set magic                       " For regular expressions turn magic on
-
 set noerrorbells                " No annoying sound on errors
 set novisualbell
-set t_vb=
 
 set clipboard=unnamed           " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set ttyfast                     " Optimize for fast terminal connections
@@ -49,12 +43,10 @@ hi clear SignColumn
 " Editing settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set ai                          " Enable auto indenting
 set showmatch                   " Show matching braces when over one
 set number                      " Enable line numbers
 set nostartofline               " Don't reset cursor to start of line when moving around.
 set shortmess=atI               " Don't show the intro message when starting Vim
-set showmode                    " Show the current mode
 set title                       " Show the filename in the window titlebar
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

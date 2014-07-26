@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 # Create required Vim directories
-ok directory $HOME/.vim/{backups,swaps,undo,bundle}
+ok directory $HOME/.vim/backups
+ok directory $HOME/.vim/swaps
+ok directory $HOME/.vim/undo
+ok directory $HOME/.vim/bundle
 
 destination $HOME/.vim/bundle
 
