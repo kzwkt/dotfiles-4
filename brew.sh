@@ -8,7 +8,6 @@ bake brew tap homebrew/dupes
 
 # Install formulae
 ok brew ack
-ok brew brew-cask
 ok brew docker
 ok brew fig
 ok brew fish
