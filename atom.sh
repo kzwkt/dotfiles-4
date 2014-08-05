@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 ok directory $HOME/.atom
 
 destination $HOME/.atom

@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 destination $HOME
 
 for file in $HOME/.dotfiles/configs/*; do

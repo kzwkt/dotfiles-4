@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 ok directory $HOME/.config/fish
 
 destination $HOME/.config/fish

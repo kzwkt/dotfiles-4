@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Create required Vim directories
 ok directory $HOME/.vim/backups
 ok directory $HOME/.vim/swaps

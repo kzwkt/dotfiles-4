@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Install/update Homebrew
 ok brew
 

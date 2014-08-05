@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Taps
 bake brew tap caskroom/cask
 bake brew tap caskroom/versions

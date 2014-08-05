@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 destination $HOME/.dotfiles
 
 # Update Bork
