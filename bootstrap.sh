@@ -18,3 +18,6 @@ case $OSTYPE in
     include osx.sh
     ;;
 esac
+
+# Dependant on above
+include npm.sh
