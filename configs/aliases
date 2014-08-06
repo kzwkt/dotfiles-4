@@ -40,6 +40,14 @@ alias gco="git checkout"
 alias gb="git branch"
 alias gs="git status -sb"
 
+# Bundler aliases
+alias b="bundle"
+alias bi="b install"
+alias bil="bi --local"
+alias bu="b update"
+alias be="b exec"
+alias bp="b package"
+
 # Start a Simple HTTP Server
 alias server="python -m SimpleHTTPServer"
 
