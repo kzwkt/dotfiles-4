@@ -7,6 +7,7 @@ alias please="sudo"
 # Node.js
 alias nls="npm list --depth=0"
 alias node="node --harmony"
+alias top="vtop"
 
 # Easier navigation: .., ..., .... and .....
 alias ..="cd .."

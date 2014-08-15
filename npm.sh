@@ -6,6 +6,7 @@ ok npm n
 
 # System utils
 ok npm trash
+ok npm vtop
 
 # Package managers
 ok npm bower
