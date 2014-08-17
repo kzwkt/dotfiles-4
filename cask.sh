@@ -17,7 +17,6 @@ ok cask hipchat
 ok cask imageoptim
 ok cask onepassword
 ok cask popcorn-time
-ok cask rdio
 ok cask spectacle
 ok cask the-unarchiver
 ok cask transmission
