@@ -26,7 +26,6 @@ alias lsd="ls -lF | grep '^d'"
 
 # Shortcuts
 alias g="git"
-alias gh="github"
 alias h="history"
 alias j="jobs"
 

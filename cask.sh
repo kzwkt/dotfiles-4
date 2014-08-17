@@ -9,7 +9,6 @@ ok brew brew-cask
 # Install desktop apps
 ok cask atom
 ok cask flux
-ok cask github
 ok cask google-chrome-dev
 ok cask gpgtools
 ok cask hazel
