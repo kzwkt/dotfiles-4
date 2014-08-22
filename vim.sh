@@ -60,5 +60,9 @@ destination $HOME/.vim/bundle
   # Shell
     ok github aliva/vim-fish                # .fish
 
+  # Java
+    ok github vim-scripts/groovy.vim        # .groovy
+    ok github tfnico/vim-gradle             # .gradle
+
   # Miscellaneous
     ok github ekalinin/Dockerfile.vim       # Dockerfile
