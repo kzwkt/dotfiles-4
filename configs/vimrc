@@ -57,6 +57,9 @@ set title                       " Show the filename in the window titlebar
 let g:airline_left_sep = ""     " Don't use fancy separators
 let g:airline_right_sep = ""
 
+" Tmuxline
+let g:tmuxline_powerline_separators = 0
+
 " CtrlP
 let g:ctrlp_show_hidden = 1     " Show hidden files
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'

@@ -34,6 +34,7 @@ destination $HOME/.vim/bundle
   ok github kien/ctrlp.vim
   ok github bling/vim-airline
   ok github christoomey/vim-tmux-navigator
+  ok github edkolev/tmuxline.vim
 
 # Language/Environment-Specific
 
