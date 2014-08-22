@@ -17,6 +17,7 @@ ok brew hub
 ok brew node
 ok brew rbenv
 ok brew ruby-build
+ok brew tmux
 ok brew tree
 ok brew vim
 

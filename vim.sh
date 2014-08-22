@@ -33,6 +33,7 @@ destination $HOME/.vim/bundle
   ok github tpope/vim-vinegar
   ok github kien/ctrlp.vim
   ok github bling/vim-airline
+  ok github christoomey/vim-tmux-navigator
 
 # Language/Environment-Specific
 
