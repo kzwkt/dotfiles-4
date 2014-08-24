@@ -1,9 +1,6 @@
 # npm-ception
 ok npm npm
 
-# Env management
-ok npm n
-
 # System utils
 ok npm trash
 ok npm vtop
