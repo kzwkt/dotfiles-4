@@ -67,3 +67,4 @@ destination $HOME/.vim/bundle
 
   # Miscellaneous
     ok github ekalinin/Dockerfile.vim       # Dockerfile
+    ok github robotvert/vim-nginx           # Nginx configs
