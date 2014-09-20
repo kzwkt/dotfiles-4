@@ -63,3 +63,6 @@ let g:tmuxline_powerline_separators = 0
 " CtrlP
 let g:ctrlp_show_hidden = 1     " Show hidden files
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
+
+" NeoComplCache
+let g:neocomplcache_enable_at_startup = 1

@@ -6,7 +6,7 @@ ok directory $HOME/.vim/bundle
 
 destination $HOME/.vim/bundle
 
-# Plugn helpers
+# Plugin helpers
   ok github tpope/vim-pathogen
 
 # Configuration
@@ -35,6 +35,7 @@ destination $HOME/.vim/bundle
   ok github bling/vim-airline
   ok github christoomey/vim-tmux-navigator
   ok github edkolev/tmuxline.vim
+  ok github Shougo/neocomplcache.vim
 
 # Language/Environment-Specific
 
