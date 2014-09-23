@@ -54,6 +54,7 @@ destination $HOME/.vim/bundle
     ok github pangloss/vim-javascript       # .js
     ok github briancollins/vim-jst          # .ejs, .jst
     ok github kchmck/vim-coffee-script      # .coffee     -> .js
+    ok github elzr/vim-json                 # .json
 
   # Markup and templates
     ok github tpope/vim-ragtag              # .html
