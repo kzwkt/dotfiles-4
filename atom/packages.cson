@@ -26,7 +26,7 @@ packages: [
   "linter-scss-lint"
 
   # Task helpers
-  "grunt-helper"
+  "grunt-runner"
   "gulp-helper"
 
   # Languages
