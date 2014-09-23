@@ -37,6 +37,9 @@ destination $HOME/.vim/bundle
   ok github edkolev/tmuxline.vim
   ok github Shougo/neocomplcache.vim
 
+# Lazy stuff
+  ok github vim-scripts/loremipsum
+
 # Language/Environment-Specific
 
   # Git
