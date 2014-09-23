@@ -19,6 +19,7 @@ packages: [
   "linter"
   "linter-coffeelint"
   "linter-csslint"
+  "linter-javac"
   "linter-jscs"
   "linter-jshint"
   "linter-phpcs"
