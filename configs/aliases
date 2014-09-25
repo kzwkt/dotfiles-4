@@ -4,6 +4,9 @@ alias git="hub"
 # Be nice
 alias please="sudo"
 
+# Better safe than sorry
+alias rm="rm -i"
+
 # Node.js
 alias nls="npm list --depth=0"
 alias node="node --harmony"
