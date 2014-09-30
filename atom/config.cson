@@ -6,11 +6,11 @@
   'tabLength': 2
   'whitespace':
     'ensureSingleTrailingNewline': true
-  'fontSize': 14
   'lineHeight': 1.5
   'showInvisibles': true
   'fontFamily': 'Menlo'
   'invisibles': {}
+  'fontSize': 14
 'core':
   'themes': [
     'atom-dark-ui'
