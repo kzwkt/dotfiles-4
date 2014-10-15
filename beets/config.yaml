@@ -1,2 +1,12 @@
-directory: ~/Music/beets
-library: ~/Music/beets/library.blb
+directory: ~/Music/Library
+library: ~/Music/Library.blb
+
+plugins:
+  missing
+  scrub
+  embedart
+  fetchart
+  zero
+
+zero:
+  fields: comments
