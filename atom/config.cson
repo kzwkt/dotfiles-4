@@ -1,16 +1,13 @@
 'editor':
   'softWrap': true
-  'autoIndent': true
   'showIndentGuide': true
-  'normalizeIndentOnPaste': true
-  'tabLength': 2
   'whitespace':
     'ensureSingleTrailingNewline': true
   'lineHeight': 1.5
   'showInvisibles': true
   'fontFamily': 'Menlo'
+  'fontSize': 12
   'invisibles': {}
-  'fontSize': 14
 'core':
   'themes': [
     'atom-dark-ui'
@@ -19,6 +16,7 @@
   'disabledPackages': [
     'linter-jscs'
     'linter-phpcs'
+    'linter-javac'
   ]
   'excludeVcsIgnoredPaths': false
 'release-notes':
