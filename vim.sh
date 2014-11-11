@@ -19,6 +19,7 @@ destination $HOME/.vim/bundle
 # Insert mode helpers
   ok github Townk/vim-autoclose
   ok github tpope/vim-surround
+  ok github mattn/emmet-vim
 
 # Text manipulation
   ok github tpope/vim-commentary
@@ -58,7 +59,7 @@ destination $HOME/.vim/bundle
 
   # Markup and templates
     ok github tpope/vim-ragtag              # .html
-    ok github juvenn/mustache               # .mustache   :{
+    ok github mustache/vim-mustache-handlebars # .mustache, .hbs
     ok github Glench/Vim-Jinja2-Syntax      # .html       jinja/nunjukcs/swig
     ok github digitaltoad/vim-jade          # .jade       -> .html
     ok github AndrewRadev/vim-eco           # .eco        -> .html

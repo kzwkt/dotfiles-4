@@ -9,4 +9,4 @@ plugins:
   zero
 
 zero:
-  fields: comments
+  fields: comments encoder
