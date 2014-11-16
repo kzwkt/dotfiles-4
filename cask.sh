@@ -8,8 +8,8 @@ ok brew brew-cask
 
 # Install desktop apps
 ok cask atom
+ok cask firefox
 ok cask flux
-ok cask google-chrome-dev
 ok cask gpgtools
 ok cask hazel
 ok cask hipchat
