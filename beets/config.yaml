@@ -1,5 +1,5 @@
 directory: ~/Music/Library
-library: ~/Music/Library.blb
+library: ~/Music/Library/.db.blb
 
 plugins:
   missing
