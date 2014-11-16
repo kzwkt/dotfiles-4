@@ -13,6 +13,7 @@ ok cask google-chrome-dev
 ok cask gpgtools
 ok cask hazel
 ok cask hipchat
+ok cask launchrocket
 ok cask popcorn-time
 ok cask spectacle
 ok cask the-unarchiver
