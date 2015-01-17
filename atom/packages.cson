@@ -10,6 +10,7 @@ packages: [
   "regex-railroad-diagram"
 
   # Git integration
+  "git-plus"
   "merge-conflicts"
 
   # Themes
@@ -25,10 +26,6 @@ packages: [
   "linter-phpcs"
   "linter-scss-lint"
 
-  # Task helpers
-  "grunt-runner"
-  "gulp-helper"
-
   # Languages
   "language-docker"
   "language-eco"
@@ -38,4 +35,7 @@ packages: [
   "language-mustache"
   "language-puppet"
   "language-viml"
+
+  # Minimap
+  "minimap"
 ]

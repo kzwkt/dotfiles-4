@@ -7,9 +7,11 @@ bake brew tap casidiablo/custom
 ok brew brew-cask
 
 # Install desktop apps
+ok cask 1password
 ok cask atom
-ok cask firefox
+ok cask dropbox
 ok cask flux
+ok cask google-chrome
 ok cask gpgtools
 ok cask hazel
 ok cask hipchat
