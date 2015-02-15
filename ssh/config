@@ -1,2 +1,5 @@
 host github.com
   identityfile ~/.keychain/ssh/github
+
+host gitlab.com
+  identityfile ~/.keychain/ssh/gitlab
