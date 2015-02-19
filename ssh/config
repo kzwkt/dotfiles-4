@@ -3,3 +3,6 @@ host github.com
 
 host gitlab.com
   identityfile ~/.keychain/ssh/gitlab
+
+host bitbucket.org
+  identityfile ~/.keychain/ssh/bitbucket
