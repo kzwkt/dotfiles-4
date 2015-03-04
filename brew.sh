@@ -21,6 +21,7 @@ ok brew tmux
 ok brew tor
 ok brew tree
 ok brew vim
+ok brew zsh
 
 # Cleanup
 bake brew cleanup

@@ -8,6 +8,7 @@ include configs.sh
 include etc.sh
 include vim.sh
 include ssh.sh
+include zsh.sh
 include fish.sh
 include atom.sh
 include beets.sh
