@@ -23,4 +23,5 @@ case $OSTYPE in
 esac
 
 # Dependant on above
+include pip.sh
 include npm.sh

@@ -23,6 +23,7 @@
 
 [alias]
   issues = !ghi
+  cleanup = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 [user]
   name = Kasper Isager
@@ -50,3 +51,7 @@
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true

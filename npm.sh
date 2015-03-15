@@ -1,5 +1,3 @@
-destination $HOME
-
 # npm-ception
 ok npm npm
 
