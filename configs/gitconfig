@@ -24,6 +24,7 @@
 [alias]
   issues = !ghi
   cleanup = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  bootstrap ="!git init && cp ~/.{editorconfig,gitignore,gitattributes} ."
 
 [user]
   name = Kasper Isager
