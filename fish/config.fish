@@ -18,3 +18,6 @@ set -x DOCKER_HOST "tcp://localhost:2375"
 
 # Load Rbenv
 status --is-interactive; and . (rbenv init -|psub)
+
+# Load Gulp completions
+gulp --completion=fish | source

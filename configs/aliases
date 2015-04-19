@@ -31,6 +31,7 @@ alias lsd="ls -lF | grep '^d'"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias t="trash"
 
 # Git aliases
 alias gl="git pull --prune"
