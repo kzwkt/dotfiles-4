@@ -4,6 +4,9 @@
 # Report terminal type
 set -x TERM "xterm-256color"
 
+# Append Composer path
+set PATH ~/.composer/vendor/bin $PATH
+
 # Set GOPATH and prepend the `bin` dir to PATH
 set -x GOPATH "$HOME/Development/go"; set PATH $GOPATH/bin $PATH
 
