@@ -2,17 +2,20 @@
 ok brew
 
 # Taps
+bake brew tap aspnet/dnx
 bake brew tap homebrew/dupes
 
 # Install formulae
 ok brew ack
 ok brew docker
 ok brew docker-compose
+ok brew dnvm
 ok brew fish
 ok brew git
 ok brew go
 ok brew httpie
 ok brew hub
+ok brew mono
 ok brew node
 ok brew python
 ok brew rbenv
