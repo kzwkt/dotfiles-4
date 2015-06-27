@@ -24,3 +24,8 @@ status --is-interactive; and . (rbenv init -|psub)
 
 # Load Gulp completions
 gulp --completion=fish | source
+
+# Fuck
+function fuck
+  eval (thefuck $history[1])
+end
