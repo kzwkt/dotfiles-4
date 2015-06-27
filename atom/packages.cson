@@ -3,28 +3,46 @@ packages: [
   "package-sync"
 
   # General
-  "editorconfig"
+  "advanced-new-file"
+  "atom-ternjs"
+  "atom-yeoman"
+  "color-picker"
   "docblockr"
+  "editorconfig"
+  "emmet"
+  "latex"
+  "sort-lines"
+  "tabs-to-spaces"
+  "travis-ci-status"
   "vim-mode"
   "zentabs"
-  "regex-railroad-diagram"
 
   # Git integration
   "git-plus"
+  "git-control"
   "merge-conflicts"
-
-  # Themes
-  "monokai"
 
   # Linters
   "linter"
   "linter-coffeelint"
+  "linter-cpplint"
   "linter-csslint"
+  "linter-flow"
+  "linter-haml"
+  "linter-handlebars"
+  "linter-htmlhint"
   "linter-javac"
+  "linter-js-yaml"
   "linter-jscs"
   "linter-jshint"
+  "linter-jsonlint"
+  "linter-less"
+  "linter-php"
   "linter-phpcs"
+  "linter-puppet"
   "linter-scss-lint"
+  "linter-tidy"
+  "linter-xmllint"
 
   # Languages
   "language-docker"
@@ -32,9 +50,15 @@ packages: [
   "language-ejs"
   "language-fish-shell"
   "language-handlebars"
+  "language-latex"
   "language-mustache"
   "language-puppet"
   "language-viml"
+
+  # Autocompletion
+  "autocomplete-modules"
+  "autocomplete-paths"
+  "autocomplete-php"
 
   # Minimap
   "minimap"
