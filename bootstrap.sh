@@ -6,6 +6,7 @@ ok github mattly/bork
 # All UNIXes
 include configs.sh
 include etc.sh
+include git.sh
 include vim.sh
 include ssh.sh
 include zsh.sh

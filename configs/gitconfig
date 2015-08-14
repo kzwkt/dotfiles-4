@@ -1,3 +1,10 @@
+[alias]
+  # Remove all branches that have been merged into master
+  cleanup = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+  # Initialise a new git repository and copy some configs to it
+  bootstrap ="!git init && cp ~/.editorconfig ."
+
 [apply]
   # Detect whitespace errors when applying a patch
   whitespace = fix
@@ -6,9 +13,8 @@
   # Set default editor (for commit and merge messages)
   editor = vim
 
-  # Use custom `.gitignore` and `.gitattributes`
+  # Set global ignore file
   excludesfile = ~/.gitignore
-  attributesfile = ~/.gitattributes
 
   # Treat spaces before tabs, lines that are indented with 8 or more spaces, and
   # all kinds of trailing whitespace as an error.
@@ -21,10 +27,9 @@
   # More info: <http://www.git-tower.com/blog/make-git-rebase-safe-on-osx/>
   trustctime = false
 
-[alias]
-  issues = !ghi
-  cleanup = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-  bootstrap ="!git init && cp ~/.{editorconfig,gitignore,gitattributes} ."
+  # Prevent showing files whose names contain non-ASCII symbols as unversioned.
+  # http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
+  precomposeunicode = false
 
 [user]
   name = Kasper Isager
@@ -37,6 +42,9 @@
 [push]
   default = simple
 
+  # Make `git push` push relevant annotated tags when pushing branches out.
+  followTags = true
+
 [diff]
   tool = vimdiff
 [difftool]
@@ -48,15 +56,3 @@
 [mergetool]
   prompt = false
   keepBackup = false
-
-[filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
-[filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
