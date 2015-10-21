@@ -1,5 +1,5 @@
 # Aliases, functions, and exports
-for file in ~/.{aliases,functions,exports}; do
+for file in ~/.{aliases,functions,exports}.sh; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
