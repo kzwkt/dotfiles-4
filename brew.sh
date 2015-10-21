@@ -23,6 +23,7 @@ ok brew ruby-build
 ok brew tmux
 ok brew tree
 ok brew vim
+ok brew wget
 ok brew zsh
 
 # Cleanup

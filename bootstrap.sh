@@ -9,7 +9,6 @@ include etc.sh
 include git.sh
 include vim.sh
 include ssh.sh
-include zsh.sh
 include atom.sh
 include beets.sh
 
@@ -25,3 +24,4 @@ esac
 # Dependant on above
 include pip.sh
 include npm.sh
+include zsh.sh
