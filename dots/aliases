@@ -9,33 +9,37 @@ alias rm="rm -i"
 
 # Node.js
 alias nls="npm list --depth=0"
-alias node="node --harmony"
-alias top="vtop"
 
-# Easier navigation: .., ..., .... and .....
+# Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Detect which `ls` flavor is in use
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+  colorflag="--color"
+else # OS X `ls`
+  colorflag="-G"
+fi
 
 # List all files colorized in long format
-alias l="ls -lF"
+alias l="ls -lF ${colorflag}"
 
 # List all files colorized in long format, including dot files
-alias la="ls -laF"
+alias la="ls -laF ${colorflag}"
 
 # List only directories
-alias lsd="ls -lF | grep '^d'"
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
-# Shortcuts
-alias h="history"
-alias j="jobs"
-alias t="trash"
+# Always use color output for `ls`
+alias ls="command ls ${colorflag}"
 
 # Git aliases
 alias g="git"
 alias gl="git pull --prune"
-alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias gp="git push"
 alias gd="git diff"
 alias gc="git commit"
@@ -52,19 +56,13 @@ alias bu="b update"
 alias be="b exec"
 alias bp="b package"
 
-# Atom aliases
-alias a="atom"
-
 # Docker aliases
 alias d="docker"
 alias dc="docker-compose"
 alias dm="docker-machine"
 
-# Start a Simple HTTP Server
-alias server="python -m SimpleHTTPServer"
-
 # Flush Directory Service cache
-alias flush="sudo discoveryutil mdnsflushcache"
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # Clean up LaunchServices to remove duplicates in the "Open With" menu
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user; killall Finder"
@@ -79,8 +77,8 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false; killa
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
 
-# Pipe public key to clipboard.
-alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
-
 # Get a UNIX timestamp
 alias timestamp="date +%s"
+
+# Get week number
+alias week='date +%V'

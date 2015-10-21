@@ -24,3 +24,6 @@
     markerType: "square-dot"
     sortPaletteColors: "by color"
   "atom-ternjs": {}
+  deprecated:
+    tool:
+      gulp: true

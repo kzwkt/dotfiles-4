@@ -4,7 +4,7 @@ destination $HOME/.dotfiles
 ok github mattly/bork
 
 # All UNIXes
-include configs.sh
+include dots.sh
 include etc.sh
 include git.sh
 include vim.sh

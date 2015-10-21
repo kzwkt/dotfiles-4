@@ -1,8 +1,11 @@
 # Antigen (https://github.com/zsh-users/antigen)
 source $HOME/.zsh/antigen/antigen.zsh
 
-# Aliases
-source $HOME/.aliases
+# Aliases, functions, and exports
+for file in ~/.{aliases,functions,exports}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
 
 # Pure prompt (https://github.com/sindresorhus/pure)
 antigen bundle mafredri/zsh-async
@@ -25,13 +28,3 @@ eval "$(gulp --completion=zsh)"
 
 # The Fuck (https://github.com/nvbn/thefuck)
 eval "$(thefuck --alias)"
-
-# Composer (https://github.com/composer/composer)
-export PATH="${PATH}:${HOME}/.composer/vendor/bin"
-
-# Java (https://www.java.com/en/)
-export CLASSPATH=".:${HOME}/Development/java/lib/*"
-
-# Go (https://golang.org/)
-export GOPATH="${HOME}/Development/go"
-export PATH="${PATH}:${GOPATH}/bin"
