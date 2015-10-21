@@ -3,14 +3,17 @@ packages: [
   "package-sync"
 
   # General
-  "advanced-new-file"
+  "advanced-open-file"
   "atom-ternjs"
-  "atom-yeoman"
+  "build"
   "color-picker"
   "docblockr"
   "editorconfig"
   "emmet"
+  "ex-mode"
+  "file-icons"
   "latex"
+  "pigments"
   "sort-lines"
   "tabs-to-spaces"
   "travis-ci-status"
@@ -18,8 +21,8 @@ packages: [
   "zentabs"
 
   # Git integration
-  "git-plus"
   "git-control"
+  "git-plus"
   "merge-conflicts"
 
   # Linters
@@ -27,38 +30,36 @@ packages: [
   "linter-coffeelint"
   "linter-cpplint"
   "linter-csslint"
-  "linter-flow"
   "linter-haml"
   "linter-handlebars"
-  "linter-htmlhint"
   "linter-javac"
   "linter-js-yaml"
-  "linter-jscs"
-  "linter-jshint"
   "linter-jsonlint"
-  "linter-less"
   "linter-php"
-  "linter-phpcs"
   "linter-puppet"
-  "linter-scss-lint"
-  "linter-tidy"
+  "linter-ruby"
   "linter-xmllint"
+  "linter-xo"
 
   # Languages
   "language-docker"
+  "language-dotenv"
   "language-eco"
   "language-ejs"
   "language-fish-shell"
+  "language-fsharp"
+  "language-gitignore"
   "language-handlebars"
   "language-latex"
-  "language-mustache"
   "language-puppet"
+  "language-smarty"
   "language-viml"
 
   # Autocompletion
   "autocomplete-modules"
   "autocomplete-paths"
   "autocomplete-php"
+  "autocomplete-snippets"
 
   # Minimap
   "minimap"

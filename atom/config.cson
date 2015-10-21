@@ -1,11 +1,12 @@
 "*":
   editor:
-    fontFamily: "Menlo"
     showInvisibles: true
     showIndentGuide: true
+    invisibles: {}
+    fontFamily: "Hack"
+    backUpBeforeSaving: true
     softWrap: true
     fontSize: 12
-    invisibles: {}
   "exception-reporting":
     userId: "2410e788-870e-51f3-105c-1b43dc19d19e"
   welcome:
@@ -17,6 +18,9 @@
     engine: "xelatex"
   "tree-view":
     hideVcsIgnoredFiles: true
-  core: {}
-  linter: {}
+  pigments:
+    mergeColorDuplicates: true
+    groupPaletteColors: "by file"
+    markerType: "square-dot"
+    sortPaletteColors: "by color"
   "atom-ternjs": {}

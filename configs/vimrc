@@ -26,7 +26,7 @@ set ttyfast                     " Optimize for fast terminal connections
 set gdefault                    " Add the g flag to search/replace by default
 set updatetime=750              " Faster update time (things like gitgutter)
 
-set shell=/usr/local/bin/fish   " Use Fish as the default shell in Vim
+set shell=/usr/local/bin/zsh    " Use zsh as the default shell in Vim
 
 set backupdir=~/.vim/backups    " Centralize backups, swapfiles and undo history
 set directory=~/.vim/swaps

@@ -9,8 +9,8 @@ bake brew tap homebrew/dupes
 ok brew ack
 ok brew docker
 ok brew docker-compose
+ok brew docker-machine
 ok brew dnvm
-ok brew fish
 ok brew git
 ok brew go
 ok brew httpie
@@ -21,7 +21,6 @@ ok brew python
 ok brew rbenv
 ok brew ruby-build
 ok brew tmux
-ok brew tree
 ok brew vim
 ok brew zsh
 

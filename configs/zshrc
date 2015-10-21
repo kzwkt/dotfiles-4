@@ -1,9 +1,11 @@
+# Antigen (https://github.com/zsh-users/antigen)
 source $HOME/.zsh/antigen/antigen.zsh
 
 # Aliases
 source $HOME/.aliases
 
-# Pure prompt
+# Pure prompt (https://github.com/sindresorhus/pure)
+antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
 
 antigen bundle zsh-users/zsh-completions
@@ -14,3 +16,22 @@ antigen apply
 
 # DNVM (https://github.com/aspnet/dnvm)
 source dnvm.sh
+
+# Rbenv (https://github.com/sstephenson/rbenv)
+eval "$(rbenv init -)"
+
+# Gulp (https://github.com/gulpjs/gulp)
+eval "$(gulp --completion=zsh)"
+
+# The Fuck (https://github.com/nvbn/thefuck)
+eval "$(thefuck --alias)"
+
+# Composer (https://github.com/composer/composer)
+export PATH="${PATH}:${HOME}/.composer/vendor/bin"
+
+# Java (https://www.java.com/en/)
+export CLASSPATH=".:${HOME}/Development/java/lib/*"
+
+# Go (https://golang.org/)
+export GOPATH="${HOME}/Development/go"
+export PATH="${PATH}:${GOPATH}/bin"
