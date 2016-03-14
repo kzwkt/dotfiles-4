@@ -5,7 +5,7 @@ done;
 unset file;
 
 # Antibody (https://github.com/caarlos0/antibody)
-source $HOME/.zsh/antibody/antibody.zsh
+source "$(brew --prefix)/share/antibody.zsh"
 antibody bundle < $HOME/.dotfiles/zsh/plugins
 
 # DNVM (https://github.com/aspnet/dnvm)

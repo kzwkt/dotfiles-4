@@ -4,9 +4,11 @@ ok brew
 # Taps
 bake brew tap aspnet/dnx
 bake brew tap homebrew/dupes
+bake brew tap getantibody/homebrew-antibody
 
 # Install formulae
 ok brew ack
+ok brew antibody
 ok brew docker
 ok brew docker-compose
 ok brew docker-machine
