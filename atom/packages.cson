@@ -5,31 +5,25 @@ packages: [
   # General
   "advanced-open-file"
   "atom-ternjs"
-  "build"
   "color-picker"
   "docblockr"
   "editorconfig"
   "emmet"
-  "ex-mode"
   "file-icons"
   "latex"
   "pigments"
   "sort-lines"
   "tabs-to-spaces"
-  "travis-ci-status"
   "vim-mode"
   "zentabs"
 
   # Git integration
-  "git-control"
-  "git-plus"
   "merge-conflicts"
 
   # Linters
   "linter"
   "linter-coffeelint"
   "linter-cpplint"
-  "linter-csslint"
   "linter-haml"
   "linter-handlebars"
   "linter-javac"
@@ -47,7 +41,6 @@ packages: [
   "language-eco"
   "language-ejs"
   "language-fish-shell"
-  "language-fsharp"
   "language-gitignore"
   "language-handlebars"
   "language-latex"
@@ -63,4 +56,10 @@ packages: [
 
   # Minimap
   "minimap"
+  "minimap-find-and-replace"
+  "minimap-git-diff"
+
+  # Ionide
+  "ionide-fsharp"
+  "ionide-fsi"
 ]

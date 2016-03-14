@@ -47,6 +47,7 @@ alias gca="git commit -a"
 alias gco="git checkout"
 alias gb="git branch"
 alias gs="git status -sb"
+alias gpr="git pull-request"
 
 # Bundler aliases
 alias b="bundle"
@@ -82,3 +83,11 @@ alias timestamp="date +%s"
 
 # Get week number
 alias week='date +%V'
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"

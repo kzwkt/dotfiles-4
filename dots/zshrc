@@ -5,10 +5,33 @@ done;
 unset file;
 
 # Antibody (https://github.com/caarlos0/antibody)
-source "$HOME/.zsh/plugins.sh"
+source $HOME/.zsh/antibody/antibody.zsh
+antibody bundle < $HOME/.dotfiles/zsh/plugins
 
 # DNVM (https://github.com/aspnet/dnvm)
 source dnvm.sh
 
 # Rbenv (https://github.com/sstephenson/rbenv)
 eval "$(rbenv init -)"
+
+# Load auto completions
+autoload -U compinit && compinit
+zmodload -i zsh/complist
+
+# Bind UP and DOWN arrow keys
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+
+# Bind UP and DOWN arrow keys (compatibility fallback for Ubuntu 12.04,
+# Fedora 21, and MacOSX 10.9 users)
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+# Bind P and N for EMACS mode
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+# Bind k and j for VI mode
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down

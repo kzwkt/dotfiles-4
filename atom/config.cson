@@ -1,29 +1,69 @@
 "*":
-  editor:
-    showInvisibles: true
-    showIndentGuide: true
-    invisibles: {}
-    fontFamily: "Hack"
-    backUpBeforeSaving: true
-    softWrap: true
-    fontSize: 12
-  "exception-reporting":
-    userId: "2410e788-870e-51f3-105c-1b43dc19d19e"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "fff9537feeed0ead131d47cc3dd2e15a40bfca56"
-  latex:
-    enableShellEscape: true
-    engine: "xelatex"
-  "tree-view":
-    hideVcsIgnoredFiles: true
-  pigments:
-    mergeColorDuplicates: true
-    groupPaletteColors: "by file"
-    markerType: "square-dot"
-    sortPaletteColors: "by color"
-  "atom-ternjs": {}
+  "atom-ternjs":
+    lint: true
+  core:
+    disabledPackages: [
+      "language-smarty"
+    ]
   deprecated:
     tool:
       gulp: true
+      make: true
+  docblockr:
+    align_tags: "no"
+    lower_case_primitives: true
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "Hack"
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "2410e788-870e-51f3-105c-1b43dc19d19e"
+  "ionide-fsharp":
+    MonoPath: "/usr/local/bin"
+  "ionide-fsi":
+    FsiPath: "fsharpi"
+  "ionide-paket":
+    MonoPath: "/usr/local/bin/mono"
+  latex:
+    enableShellEscape: true
+    engine: "xelatex"
+  linter: {}
+  metrics:
+    userId: "fff9537feeed0ead131d47cc3dd2e15a40bfca56"
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "one-dark-ui": {}
+  pigments:
+    groupPaletteColors: "by file"
+    markerType: "square-dot"
+    mergeColorDuplicates: true
+    sortPaletteColors: "by color"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".fsharp.fsi.source":
+  editor:
+    preferredLineLength: 120
+".fsharp.fsl.source":
+  editor:
+    preferredLineLength: 120
+".fsharp.fsx.source":
+  editor:
+    preferredLineLength: 120
+".fsharp.source":
+  editor:
+    preferredLineLength: 120
+".paket.source":
+  editor:
+    preferredLineLength: 120
