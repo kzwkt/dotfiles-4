@@ -11,6 +11,7 @@ ok cask 1password
 ok cask atom
 ok cask dropbox
 ok cask flux
+ok cask gitup
 ok cask google-chrome
 ok cask gpgtools
 ok cask hazel
