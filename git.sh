@@ -1,4 +1,4 @@
-destination $HOME/.dotfiles
+cd $HOME/.dotfiles
 
 ok github github/gitignore
 

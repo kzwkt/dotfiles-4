@@ -18,6 +18,8 @@ eval "$(rbenv init -)"
 autoload -U compinit && compinit
 zmodload -i zsh/complist
 
+PURE_PROMPT_SYMBOL=e
+
 # Bind UP and DOWN arrow keys
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up

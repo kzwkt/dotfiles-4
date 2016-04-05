@@ -2,9 +2,9 @@
 ok brew
 
 # Taps
-bake brew tap aspnet/dnx
-bake brew tap homebrew/dupes
-bake brew tap getantibody/homebrew-antibody
+ok brew-tap aspnet/dnx
+ok brew-tap homebrew/dupes
+ok brew-tap getantibody/homebrew-antibody
 
 # Install formulae
 ok brew ack

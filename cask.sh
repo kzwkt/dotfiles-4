@@ -1,7 +1,7 @@
 # Taps
-bake brew tap caskroom/cask
-bake brew tap caskroom/versions
-bake brew tap caskroom/fonts
+ok brew-tap caskroom/cask
+ok brew-tap caskroom/versions
+ok brew-tap caskroom/fonts
 
 # Install Homebrew Cask
 ok brew brew-cask

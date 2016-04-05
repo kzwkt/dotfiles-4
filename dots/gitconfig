@@ -34,6 +34,7 @@
 [user]
   name = Kasper Isager
   email = kasperisager@gmail.com
+  signingkey = F78804D7
 
 [github]
   name = Kasper Isager
