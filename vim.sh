@@ -4,7 +4,7 @@ ok directory $HOME/.vim/swaps
 ok directory $HOME/.vim/undo
 ok directory $HOME/.vim/bundle
 
-destination $HOME/.vim/bundle
+cd $HOME/.vim/bundle
 
 # Plugin helpers
   ok github tpope/vim-pathogen
@@ -18,12 +18,9 @@ destination $HOME/.vim/bundle
 
 # Insert mode helpers
   ok github Townk/vim-autoclose
-  ok github tpope/vim-surround
-  ok github mattn/emmet-vim
 
 # Text manipulation
   ok github tpope/vim-commentary
-  ok github junegunn/vim-easy-align
 
 # Git helpers
   ok github mhinz/vim-signify
@@ -50,22 +47,14 @@ destination $HOME/.vim/bundle
     ok github tpope/vim-git                 # .gitcommit
 
   # CSS
-    ok github cakebaker/scss-syntax.vim     # .scss       -> .css
-    ok github groenewege/vim-less           # .less       -> .css
-    ok github wavded/vim-stylus             # .styl       -> .css
+    ok github cakebaker/scss-syntax.vim     # .scss
+    ok github groenewege/vim-less           # .less
+    ok github wavded/vim-stylus             # .styl
 
   # Javascript
     ok github pangloss/vim-javascript       # .js
-    ok github briancollins/vim-jst          # .ejs, .jst
-    ok github kchmck/vim-coffee-script      # .coffee     -> .js
+    ok github kchmck/vim-coffee-script      # .coffee
     ok github elzr/vim-json                 # .json
-
-  # Markup and templates
-    ok github tpope/vim-ragtag              # .html
-    ok github mustache/vim-mustache-handlebars # .mustache, .hbs
-    ok github Glench/Vim-Jinja2-Syntax      # .html       jinja/nunjukcs/swig
-    ok github digitaltoad/vim-jade          # .jade       -> .html
-    ok github AndrewRadev/vim-eco           # .eco        -> .html
 
   # Shell
     ok github aliva/vim-fish                # .fish

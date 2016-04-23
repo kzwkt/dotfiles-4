@@ -1,4 +1,4 @@
-destination $HOME
+cd $HOME
 
 for file in $HOME/.dotfiles/dots/*; do
   ok symlink ".$(basename $file)" $file

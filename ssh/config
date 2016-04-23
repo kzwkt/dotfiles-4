@@ -6,7 +6,3 @@ host gitlab.com
 
 host bitbucket.org
   identityfile ~/.keychain/ssh/bitbucket
-
-host git.funktionel.co
-  hostname direct.git.funktionel.co
-  identityfile ~/.keychain/ssh/funktionel

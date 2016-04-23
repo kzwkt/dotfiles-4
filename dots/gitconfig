@@ -60,3 +60,6 @@
 
 [commit]
   gpgsign = true
+
+[apply]
+  whitespace = warn

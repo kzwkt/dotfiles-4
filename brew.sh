@@ -20,12 +20,8 @@ ok brew hub
 ok brew mono
 ok brew node
 ok brew python
-ok brew rbenv
-ok brew ruby-build
 ok brew tmux
-ok brew tree
 ok brew vim
-ok brew wget
 ok brew zsh
 
 # Cleanup

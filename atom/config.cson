@@ -33,7 +33,10 @@
   latex:
     enableShellEscape: true
     engine: "xelatex"
-  linter: {}
+  linter:
+    ignoreMatchedFiles: "**/*.{fs,fsi}"
+  "markdown-preview":
+    useGitHubStyle: true
   metrics:
     userId: "fff9537feeed0ead131d47cc3dd2e15a40bfca56"
   minimap:

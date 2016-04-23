@@ -1,4 +1,4 @@
-destination $HOME/.dotfiles
+cd $HOME/.dotfiles
 
 # Update Bork
 ok github mattly/bork

@@ -2,7 +2,6 @@
 ok npm npm
 
 # Task runners
-ok npm grunt-cli
 ok npm gulp-cli
 
 # OS utils
