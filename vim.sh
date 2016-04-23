@@ -18,6 +18,7 @@ cd $HOME/.vim/bundle
 
 # Insert mode helpers
   ok github Townk/vim-autoclose
+  ok github Shougo/neocomplete.vim
 
 # Text manipulation
   ok github tpope/vim-commentary
@@ -30,16 +31,12 @@ cd $HOME/.vim/bundle
 # Navigation
   ok github tpope/vim-vinegar
   ok github kien/ctrlp.vim
-  ok github bling/vim-airline
+  ok github vim-airline/vim-airline
   ok github christoomey/vim-tmux-navigator
   ok github edkolev/tmuxline.vim
-  ok github Shougo/neocomplcache.vim
 
 # Syntax helpers
   ok github scrooloose/syntastic
-
-# Lazy stuff
-  ok github vim-scripts/loremipsum
 
 # Language/Environment-Specific
 
@@ -49,7 +46,6 @@ cd $HOME/.vim/bundle
   # CSS
     ok github cakebaker/scss-syntax.vim     # .scss
     ok github groenewege/vim-less           # .less
-    ok github wavded/vim-stylus             # .styl
 
   # Javascript
     ok github pangloss/vim-javascript       # .js

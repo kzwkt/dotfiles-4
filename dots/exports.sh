@@ -7,3 +7,6 @@ export CLASSPATH=".:$HOME/Development/java/lib/*"
 # Go (https://golang.org/)
 export GOPATH="$HOME/Development/go"
 export PATH="$PATH:$GOPATH/bin"
+
+# Report terminal type
+export TERM="xterm-256color"

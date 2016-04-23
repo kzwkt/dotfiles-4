@@ -12,6 +12,7 @@ ok brew antibody
 ok brew docker
 ok brew docker-compose
 ok brew docker-machine
+ok brew docker-swarm
 ok brew dnvm
 ok brew git
 ok brew go
