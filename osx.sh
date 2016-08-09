@@ -2,7 +2,7 @@
 # General UI/UX                                                               #
 ###############################################################################
 
-# Disable the “Are you sure you want to open this application?” dialog
+# Disable the "Are you sure you want to open this application?" dialog
 ok defaults com.apple.LaunchServices LSQuarantine bool false
 
 # Disable Resume system-wide
@@ -12,12 +12,12 @@ ok defaults -g NSQuitAlwaysKeepsWindows bool false
 ok defaults com.apple.CrashReporter DialogType string "none"
 
 # Check for software updates daily, not just once per week
-ok defaults com.apple.SoftwareUpdate ScheduleFrequency integer 1
+ok defaults com.apple.SoftwareUpdate ScheduleFrequency int 1
 
-# Disable smart quotes as they’re annoying when typing code
+# Disable smart quotes as they're annoying when typing code
 ok defaults -g NSAutomaticQuoteSubstitutionEnabled bool false
 
-# Disable smart dashes as they’re annoying when typing code
+# Disable smart dashes as they're annoying when typing code
 ok defaults -g NSAutomaticDashSubstitutionEnabled bool false
 
 ###############################################################################
@@ -26,13 +26,13 @@ ok defaults -g NSAutomaticDashSubstitutionEnabled bool false
 
 # Trackpad: enable tap to click for this user and for the login screen
 ok defaults com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking bool true
-ok defaults -g com.apple.mouse.tapBehavior integer 1
+ok defaults -g com.apple.mouse.tapBehavior int 1
 
 # Disable press-and-hold for keys in favor of key repeat
 ok defaults -g ApplePressAndHoldEnabled bool false
 
 # Set a blazingly fast keyboard repeat rate
-ok defaults -g KeyRepeat integer 0
+ok defaults -g KeyRepeat int 2
 
 # Increase speed of trackpad cursor movement
 ok defaults -g com.apple.trackpad.scaling float 3
@@ -42,8 +42,8 @@ ok defaults -g com.apple.trackpad.scaling float 3
 ###############################################################################
 
 # Require password immediately after sleep or screen saver begins
-ok defaults com.apple.screensaver askForPassword integer 1
-ok defaults com.apple.screensaver askForPasswordDelay integer 0
+ok defaults com.apple.screensaver askForPassword int 1
+ok defaults com.apple.screensaver askForPasswordDelay int 0
 
 # Save screenshots to the desktop
 ok defaults com.apple.screencapture location string "${HOME}/Desktop"
@@ -55,7 +55,7 @@ ok defaults com.apple.screencapture type string "png"
 ok defaults com.apple.screencapture disable-shadow bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
-ok defaults -g AppleFontSmoothing integer 2
+ok defaults -g AppleFontSmoothing int 2
 
 ###############################################################################
 # Finder                                                                      #
@@ -102,10 +102,10 @@ ok defaults com.apple.dock persistent-apps bool false
 # Disable Dashboard
 ok defaults com.apple.dashboard mcx-disabled bool true
 
-# Don’t show Dashboard as a Space
+# Don't show Dashboard as a Space
 ok defaults com.apple.dock dashboard-in-overlay bool true
 
-# Don’t automatically rearrange Spaces based on most recent use
+# Don't automatically rearrange Spaces based on most recent use
 ok defaults com.apple.dock mru-spaces bool false
 
 # Automatically hide and show the Dock
@@ -120,11 +120,6 @@ ok defaults com.apple.dock ResetLaunchPad bool true
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 ok defaults com.apple.mail AddressesIncludeNameOnPasteboard bool false
-
-# Display emails in threaded mode, sorted by date (oldest at the top)
-# ok defaults com.apple.mail DraftsViewerAttributes dictionary "DisplayInThreadedMode" string "yes"
-# ok defaults com.apple.mail DraftsViewerAttributes dictionary "SortedDescending" string "yes"
-# ok defaults com.apple.mail DraftsViewerAttributes dictionary "SortOrder" string "received-date"
 
 # Disable inline attachments (just show the icons)
 ok defaults com.apple.mail DisableInlineAttachmentViewing bool true

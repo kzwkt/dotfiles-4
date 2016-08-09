@@ -5,6 +5,7 @@
     disabledPackages: [
       "language-smarty"
     ]
+    openEmptyEditorOnStart: false
   deprecated:
     tool:
       gulp: true
@@ -14,7 +15,7 @@
     lower_case_primitives: true
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Hack"
+    fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
     preferredLineLength: 120
@@ -24,6 +25,12 @@
     softWrap: true
   "exception-reporting":
     userId: "2410e788-870e-51f3-105c-1b43dc19d19e"
+  "file-icons":
+    coloured: false
+  "haskell-ghc-mod":
+    additionalPathDirectories: [
+      "/usr/local/bin"
+    ]
   "ionide-fsharp":
     MonoPath: "/usr/local/bin"
   "ionide-fsi":
@@ -35,6 +42,9 @@
     engine: "xelatex"
   linter:
     ignoreMatchedFiles: "**/*.{fs,fsi}"
+  "linter-clang":
+    clangDefaultCppFlags: "-Wall -std=c++14 -Iinclude -Ivendor"
+  "linter-javac": {}
   "markdown-preview":
     useGitHubStyle: true
   metrics:
@@ -51,6 +61,15 @@
     markerType: "square-dot"
     mergeColorDuplicates: true
     sortPaletteColors: "by color"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.tex.latex"
+    ]
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:

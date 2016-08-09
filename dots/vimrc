@@ -9,17 +9,15 @@ execute pathogen#infect()
 " General settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-runtime! plugin/sensible.vim    " Load sensible defaults
+runtime plugin/sensible.vim    " Load sensible defaults
 
+syntax on
 set ignorecase                  " Ignore case when searching
 set smartcase                   " When searching try to be smart about cases
 
-set hlsearch                    " Highlight search results
-
-set lazyredraw                  " Don't redraw while executing macros (good performance config)
-
-set noerrorbells                " No annoying sound on errors
-set novisualbell
+set mouse=a                     " Enable mouse support
+set ttymouse=xterm2
+set ttyfast
 
 set clipboard=unnamed           " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 set ttyfast                     " Optimize for fast terminal connections
@@ -36,10 +34,16 @@ set undodir=~/.vim/undo
 " Color and font settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-colorscheme smyck
+set termguicolors               " Enable GUI color support
 
-hi clear VertSplit              " Clear highlight of vertical split and sign column
-hi clear SignColumn
+colorscheme onedark
+
+hi VertSplit guifg=NONE
+hi LineNr guibg=NONE
+hi StatusLine guibg=NONE
+hi GitGutterAdd guibg=NONE
+hi GitGutterChange guibg=NONE
+hi GitGutterDelete guibg=NONE
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Editing settings
@@ -55,15 +59,13 @@ set title                       " Show the filename in the window titlebar
 " Plugin settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" Airline
-let g:airline_powerline_fonts = 1
-
-" Tmuxline
-let g:tmuxline_powerline_separators = 1
-
 " CtrlP
 let g:ctrlp_show_hidden = 1     " Show hidden files
-let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|DS_Store\|git'
+let g:ctrlp_custom_ignore = "node_modules\|bower_components\|DS_Store\|git"
 
 " Neocomplete
 let g:neocomplete#enable_at_startup = 1
+
+" Syntastic
+let g:syntastic_cpp_compiler = "c++"
+let g:syntastic_cpp_compiler_options = "-std=c++11"

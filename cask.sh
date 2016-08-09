@@ -10,7 +10,7 @@ ok cask flux
 ok cask google-chrome
 ok cask gpgtools
 ok cask hazel
-ok cask iterm2
+ok cask hyperterm
 ok cask spectacle
 ok cask the-unarchiver
 ok cask transmission
@@ -18,7 +18,7 @@ ok cask virtualbox
 ok cask vlc
 
 # Install fonts
-ok cask font-hack
+ok cask font-fira-code
 
 # Cleanup
 bake brew cleanup
