@@ -10,7 +10,7 @@ ok cask flux
 ok cask google-chrome
 ok cask gpgtools
 ok cask hazel
-ok cask hyperterm
+ok cask hyper
 ok cask spectacle
 ok cask the-unarchiver
 ok cask transmission
