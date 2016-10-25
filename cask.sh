@@ -8,14 +8,13 @@ ok cask atom
 ok cask dropbox
 ok cask flux
 ok cask google-chrome
-ok cask gpgtools
 ok cask hazel
 ok cask hyper
+ok cask sourcetree
 ok cask spectacle
 ok cask the-unarchiver
 ok cask transmission
-ok cask virtualbox
-ok cask vlc
+ok cask vmware-fusion
 
 # Install fonts
 ok cask font-fira-code
