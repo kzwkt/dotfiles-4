@@ -1,12 +1,17 @@
+# Antibody (https://github.com/caarlos0/antibody)
+source <(antibody init)
+
+antibody bundle mafredri/zsh-async
+antibody bundle sindresorhus/pure
+antibody bundle zsh-users/zsh-completions
+antibody bundle zsh-users/zsh-syntax-highlighting
+antibody bundle zsh-users/zsh-history-substring-search
+
 # Aliases, functions, and exports
 for file in ~/.{aliases,functions,exports}.sh; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
-
-# Antibody (https://github.com/caarlos0/antibody)
-source <(antibody init)
-antibody bundle < $HOME/.dotfiles/zsh/plugins
 
 # DNVM (https://github.com/aspnet/dnvm)
 source dnvm.sh
