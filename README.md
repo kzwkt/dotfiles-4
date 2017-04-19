@@ -6,7 +6,7 @@
 
 ## Available commands
 
-```console
+```bash
 $ ./dotfiles status [<file>]
 # Check the status of the assertions in a config script.
 # If no file is provided, all assertions will be checked.
