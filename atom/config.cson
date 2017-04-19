@@ -11,6 +11,7 @@
     ]
     telemetryConsent: "limited"
     titleBar: "custom"
+    useCustomTitleBar: true
   deprecated:
     tool:
       gulp: true

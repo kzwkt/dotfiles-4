@@ -4,7 +4,7 @@ ok github github/gitignore
 
 cat gitignore/Global/{\
 Linux,\
-OSX,\
+macOS,\
 Vim,\
 Windows\
 }.gitignore > $HOME/.gitignore

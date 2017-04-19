@@ -17,7 +17,7 @@ case $OSTYPE in
   darwin*)
     include brew.sh
     include cask.sh
-    include osx.sh
+    include macos.sh
     ;;
 esac
 
