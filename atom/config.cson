@@ -3,9 +3,14 @@
     lint: true
   core:
     disabledPackages: [
-      "language-smarty"
+      "status-bar"
     ]
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "atom-ternjs"
+    ]
+    telemetryConsent: "limited"
+    titleBar: "custom"
   deprecated:
     tool:
       gulp: true
@@ -18,74 +23,37 @@
     fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
-    preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
+    softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "2410e788-870e-51f3-105c-1b43dc19d19e"
   "file-icons":
     coloured: false
-  "haskell-ghc-mod":
-    additionalPathDirectories: [
-      "/usr/local/bin"
-    ]
-  "ionide-fsharp":
-    MonoPath: "/usr/local/bin"
-  "ionide-fsi":
-    FsiPath: "fsharpi"
-  "ionide-paket":
-    MonoPath: "/usr/local/bin/mono"
   latex:
     enableShellEscape: true
     engine: "xelatex"
   linter:
+    errorPanelHeight: 143
     ignoreMatchedFiles: "**/*.{fs,fsi}"
   "linter-clang":
     clangDefaultCppFlags: "-Wall -std=c++14 -Iinclude -Ivendor"
   "linter-javac": {}
+  "linter-scalac": {}
+  "linter-scalastyle":
+    sourceDir: "."
   "markdown-preview":
     useGitHubStyle: true
   metrics:
     userId: "fff9537feeed0ead131d47cc3dd2e15a40bfca56"
-  minimap:
-    plugins:
-      "find-and-replace": true
-      "find-and-replaceDecorationsZIndex": 0
-      "git-diff": true
-      "git-diffDecorationsZIndex": 0
-  "one-dark-ui": {}
-  pigments:
-    groupPaletteColors: "by file"
-    markerType: "square-dot"
-    mergeColorDuplicates: true
-    sortPaletteColors: "by color"
-  "spell-check":
-    grammars: [
-      "source.asciidoc"
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-      "text.plain.null-grammar"
-      "text.tex.latex"
-    ]
+  "spell-check": {}
+  "status-bar":
+    fullWidth: false
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
-".fsharp.fsi.source":
-  editor:
-    preferredLineLength: 120
-".fsharp.fsl.source":
-  editor:
-    preferredLineLength: 120
-".fsharp.fsx.source":
-  editor:
-    preferredLineLength: 120
-".fsharp.source":
-  editor:
-    preferredLineLength: 120
-".paket.source":
-  editor:
-    preferredLineLength: 120
+  zentabs:
+    neverCloseUnsaved: true
