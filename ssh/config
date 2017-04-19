@@ -1,8 +1,5 @@
 host github.com
   identityfile ~/.keychain/ssh/github
 
-host gitlab.com
-  identityfile ~/.keychain/ssh/gitlab
-
-host bitbucket.org
-  identityfile ~/.keychain/ssh/bitbucket
+host github.itu.dk
+  identityfile ~/.keychain/ssh/github
