@@ -1,10 +1,17 @@
+const css = `
+  * {
+    -webkit-font-smoothing: subpixel-antialiased
+  }
+`;
+
 module.exports = {
   config: {
     fontSize: 12,
-    fontFamily: '"Fira Code"',
+    fontFamily: 'Fira Code',
+    css: css,
+    termCSS: css
   },
   plugins: [
-    'hyperterm-atom-dark',
-    'hyperterm-1password'
+    'hyper-one-dark'
   ]
 };
