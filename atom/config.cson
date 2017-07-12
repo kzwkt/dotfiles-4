@@ -2,13 +2,15 @@
   "atom-ternjs":
     lint: true
   core:
+    disabledPackages: [
+      "whitespace"
+    ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
       "atom-ternjs"
     ]
     telemetryConsent: "limited"
     titleBar: "custom"
-    useCustomTitleBar: true
   deprecated:
     tool:
       gulp: true
