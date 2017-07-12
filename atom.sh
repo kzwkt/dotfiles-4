@@ -14,16 +14,13 @@ ok apm docblockr
 ok apm editorconfig
 ok apm file-icons
 ok apm sort-lines
-ok apm tabs-to-spaces
 ok apm vim-mode
 ok apm zentabs
-
-# Git integration
-ok apm merge-conflicts
 
 # Linters
 ok apm linter
 ok apm linter-clang
+ok apm linter-eslint
 ok apm linter-javac
 ok apm linter-js-yaml
 ok apm linter-jsonlint

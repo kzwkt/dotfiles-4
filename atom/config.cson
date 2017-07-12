@@ -2,9 +2,6 @@
   "atom-ternjs":
     lint: true
   core:
-    disabledPackages: [
-      "status-bar"
-    ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
       "atom-ternjs"
