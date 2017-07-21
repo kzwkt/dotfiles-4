@@ -48,6 +48,9 @@ alias gca="git commit -a"
 alias gco="git checkout"
 alias gb="git branch"
 alias gs="git status -sb"
+alias gm="git merge"
+alias gr="git rebase"
+alias gri="git rebase -i"
 alias gpr="git pull-request"
 
 # Bundler aliases
