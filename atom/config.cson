@@ -4,6 +4,8 @@
   core:
     disabledPackages: [
       "whitespace"
+      "linter"
+      "linter-ui-default"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -23,6 +25,7 @@
     fontFamily: "Fira Code"
     fontSize: 12
     invisibles: {}
+    preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
@@ -35,15 +38,16 @@
   latex:
     enableShellEscape: true
     engine: "xelatex"
-  linter:
-    errorPanelHeight: 143
-    ignoreMatchedFiles: "**/*.{fs,fsi}"
+  linter: {}
   "linter-clang":
     clangDefaultCppFlags: "-Wall -std=c++14 -Iinclude -Ivendor"
   "linter-javac": {}
   "linter-scalac": {}
   "linter-scalastyle":
     sourceDir: "."
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
   "markdown-preview":
     useGitHubStyle: true
   metrics:
@@ -53,6 +57,7 @@
     fullWidth: false
   "tree-view":
     hideVcsIgnoredFiles: true
+  "vim-mode-plus": {}
   welcome:
     showOnStartup: false
   zentabs:

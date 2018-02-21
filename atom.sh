@@ -14,17 +14,22 @@ ok apm docblockr
 ok apm editorconfig
 ok apm file-icons
 ok apm sort-lines
-ok apm vim-mode
+ok apm vim-mode-plus
 ok apm zentabs
+
+# IDEs
+ok apm ide-typescript
 
 # Linters
 ok apm linter
 ok apm linter-clang
 ok apm linter-eslint
+ok apm linter-hjson
 ok apm linter-javac
 ok apm linter-js-yaml
 ok apm linter-jsonlint
 ok apm linter-php
+ok apm linter-stylelint
 ok apm linter-scalac
 ok apm linter-xo
 

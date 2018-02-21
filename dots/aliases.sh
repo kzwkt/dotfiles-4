@@ -52,6 +52,7 @@ alias gm="git merge"
 alias gr="git rebase"
 alias gri="git rebase -i"
 alias gpr="git pull-request"
+alias gst="git stash"
 
 # Bundler aliases
 alias b="bundle"

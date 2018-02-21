@@ -1,6 +1,7 @@
 const css = `
   * {
-    -webkit-font-smoothing: subpixel-antialiased
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-variant-ligatures: contextual;
   }
 `;
 

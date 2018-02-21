@@ -11,7 +11,7 @@
 
 [core]
   # Set default editor (for commit and merge messages)
-  editor = vim
+  editor = atom --wait
 
   # Set global ignore file
   excludesfile = ~/.gitignore
@@ -31,7 +31,7 @@
   # http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
   precomposeunicode = false
 
-	pager = diff-so-fancy | less -r
+  pager = diff-so-fancy | less -r
 
 [user]
   name = Kasper Isager
