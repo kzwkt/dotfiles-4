@@ -55,8 +55,7 @@
   "spell-check": {}
   "status-bar":
     fullWidth: false
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   "vim-mode-plus": {}
   welcome:
     showOnStartup: false
