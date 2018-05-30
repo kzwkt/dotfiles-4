@@ -67,6 +67,9 @@ alias d="docker"
 alias dc="docker-compose"
 alias dm="docker-machine"
 
+# Yarn aliases
+alias y="yarn"
+
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
