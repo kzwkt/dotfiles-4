@@ -1,12 +1,3 @@
-ok directory $HOME/.atom
-
-cd $HOME/.atom
-
-for file in $HOME/.dotfiles/atom/*; do
-  ok symlink "$(basename $file)" $file
-done
-unset file
-
 ok apm advanced-open-file
 ok apm autocomplete-modules
 ok apm autocomplete-paths
