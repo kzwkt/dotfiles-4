@@ -10,6 +10,7 @@ ok cask google-chrome
 ok cask hazel
 ok cask hyper
 ok cask amethyst
+ok cask marta
 ok cask the-unarchiver
 ok cask transmission
 
