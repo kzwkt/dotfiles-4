@@ -7,7 +7,6 @@ ok directory $HOME/.vim/bundle
 cd $HOME/.vim/bundle
 
 ok github airblade/vim-gitgutter
-ok github christoomey/vim-tmux-navigator
 ok github editorconfig/editorconfig-vim
 ok github flazz/vim-colorschemes
 ok github idanarye/vim-merginal

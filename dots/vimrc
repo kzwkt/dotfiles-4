@@ -9,7 +9,7 @@ execute pathogen#infect()
 " General settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-runtime plugin/sensible.vim    " Load sensible defaults
+runtime plugin/sensible.vim     " Load sensible defaults
 
 syntax on
 set ignorecase                  " Ignore case when searching

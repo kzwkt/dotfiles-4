@@ -23,5 +23,4 @@ esac
 
 # Dependant on above
 include pip.sh
-include npm.sh
 include zsh.sh
