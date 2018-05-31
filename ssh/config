@@ -1,5 +1,2 @@
 host github.com
   identityfile ~/.keychain/ssh/github
-
-host github.itu.dk
-  identityfile ~/.keychain/ssh/github
