@@ -1,6 +1,7 @@
 ok apm advanced-open-file
 ok apm autocomplete-modules
 ok apm autocomplete-paths
+ok apm atom-ide-ui
 ok apm docblockr
 ok apm editorconfig
 ok apm file-icons
