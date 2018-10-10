@@ -13,12 +13,15 @@ ok github tpope/vim-sensible
 ok github tpope/vim-vinegar
 ok github tpope/vim-fugitive
 ok github tpope/vim-unimpaired
+ok github tpope/vim-surround
 
 # Color schemes
 ok github dracula/vim
 
 ok github airblade/vim-gitgutter
 ok github editorconfig/editorconfig-vim
+ok github christoomey/vim-tmux-navigator
+ok github jiangmiao/auto-pairs
 
 ok github junegunn/fzf.vim
 ok github mileszs/ack.vim
