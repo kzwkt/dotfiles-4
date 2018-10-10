@@ -6,18 +6,25 @@ ok directory $HOME/.vim/bundle
 
 cd $HOME/.vim/bundle
 
-ok github airblade/vim-gitgutter
-ok github editorconfig/editorconfig-vim
-ok github flazz/vim-colorschemes
-ok github idanarye/vim-merginal
-ok github kien/ctrlp.vim
-ok github scrooloose/syntastic
-ok github sheerun/vim-polyglot
-ok github Shougo/neocomplete.vim
-ok github Townk/vim-autoclose
+# The obligatory
 ok github tpope/vim-commentary
-ok github tpope/vim-eunuch
-ok github tpope/vim-fugitive
 ok github tpope/vim-pathogen
 ok github tpope/vim-sensible
 ok github tpope/vim-vinegar
+ok github tpope/vim-fugitive
+ok github tpope/vim-unimpaired
+
+# Color schemes
+ok github dracula/vim
+
+ok github airblade/vim-gitgutter
+ok github editorconfig/editorconfig-vim
+
+ok github junegunn/fzf.vim
+ok github mileszs/ack.vim
+
+# Language features
+ok github w0rp/ale
+
+# Syntax plugins
+ok github leafgarland/typescript-vim

@@ -9,63 +9,50 @@ execute pathogen#infect()
 " General settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-runtime plugin/sensible.vim     " Load sensible defaults
+runtime plugin/sensible.vim       " Load sensible defaults
 
-syntax on
-set ignorecase                  " Ignore case when searching
-set smartcase                   " When searching try to be smart about cases
+set ignorecase                    " Ignore case when searching
+set smartcase                     " When searching try to be smart about cases
 
-set mouse=a                     " Enable mouse support
-set ttymouse=xterm2
-set ttyfast
+set clipboard=unnamed,unnamedplus " Use the OS clipboard by default (on versions compiled with `+clipboard`)
+set ttyfast                       " Optimize for fast terminal connections
+set gdefault                      " Add the g flag to search/replace by default
+set updatetime=750                " Faster update time (things like gitgutter)
 
-set clipboard=unnamed           " Use the OS clipboard by default (on versions compiled with `+clipboard`)
-set ttyfast                     " Optimize for fast terminal connections
-set gdefault                    " Add the g flag to search/replace by default
-set updatetime=750              " Faster update time (things like gitgutter)
+set shell=/usr/local/bin/zsh      " Use zsh as the default shell in Vim
 
-set shell=/usr/local/bin/zsh    " Use zsh as the default shell in Vim
-
-set backupdir=~/.vim/backups    " Centralize backups, swapfiles and undo history
+set backupdir=~/.vim/backups      " Centralize backups, swapfiles and undo history
 set directory=~/.vim/swaps
 set undodir=~/.vim/undo
+
+set rtp+=/usr/local/opt/fzf
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Color and font settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set termguicolors               " Enable GUI color support
+set termguicolors                 " Enable GUI color support
 
-colorscheme onedark
+colorscheme dracula
 
-hi VertSplit guifg=NONE
-hi LineNr guibg=NONE
-hi StatusLine guibg=NONE
-hi GitGutterAdd guibg=NONE
-hi GitGutterChange guibg=NONE
-hi GitGutterDelete guibg=NONE
+set colorcolumn=80,120
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Editing settings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-set showmatch                   " Show matching braces when over one
-set number                      " Enable line numbers
-set nostartofline               " Don't reset cursor to start of line when moving around.
-set shortmess=atI               " Don't show the intro message when starting Vim
-set title                       " Show the filename in the window titlebar
+set showmatch                     " Show matching braces when over one
+set number                        " Enable line numbers
+set nostartofline                 " Don't reset cursor to start of line when moving around.
+set shortmess=atI                 " Don't show the intro message when starting Vim
+set title                         " Show the filename in the window titlebar
+
+let g:ackprg = "rg --vimgrep --no-heading"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugin settings
+" Keybindings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" CtrlP
-let g:ctrlp_show_hidden = 1     " Show hidden files
-let g:ctrlp_custom_ignore = "node_modules\|bower_components\|DS_Store\|git"
-
-" Neocomplete
-let g:neocomplete#enable_at_startup = 1
-
-" Syntastic
-let g:syntastic_cpp_compiler = "c++"
-let g:syntastic_cpp_compiler_options = "-std=c++11"
+nmap ; :Buffers<CR>
+nmap <Leader>t :Files<CR>
+nmap <Leader>a :Ack!<Space>

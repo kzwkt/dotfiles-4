@@ -17,3 +17,6 @@ export MONO_PATH="/usr/local/lib/mono_assemblies"
 
 # Report terminal type
 export TERM="xterm-256color"
+
+# FZF
+export FZF_DEFAULT_COMMAND="fd --type f"

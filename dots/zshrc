@@ -23,13 +23,5 @@ eval "$(rbenv init -)"
 autoload -U compinit && compinit
 zmodload -i zsh/complist
 
-# Bind UP and DOWN arrow keys
-zmodload zsh/terminfo
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
-bindkey "$terminfo[cuu1]" history-substring-search-up
-bindkey "$terminfo[cud1]" history-substring-search-down
-
-# Bind k and j for VI mode
-bindkey -M vicmd "k" history-substring-search-up
-bindkey -M vicmd "j" history-substring-search-down
+# Enable Vi mode
+bindkey -v
