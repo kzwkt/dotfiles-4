@@ -23,6 +23,7 @@ ok github airblade/vim-gitgutter
 ok github editorconfig/editorconfig-vim
 ok github christoomey/vim-tmux-navigator
 ok github jiangmiao/auto-pairs
+ok github vim-scripts/gitignore
 
 ok github junegunn/fzf.vim
 ok github mileszs/ack.vim
