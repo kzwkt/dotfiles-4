@@ -54,6 +54,9 @@ set hidden                        " Enable hidden buffers
 " Keybindings
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+nnoremap k gk
+nnoremap j gj
+
 nmap ; :Buffers<CR>
 nmap <Leader>t :Files<CR>
 nmap <Leader>a :Ack!<Space>

@@ -14,6 +14,7 @@ ok github tpope/vim-vinegar
 ok github tpope/vim-fugitive
 ok github tpope/vim-unimpaired
 ok github tpope/vim-surround
+ok github tpope/vim-eunuch
 
 # Color schemes
 ok github dracula/vim

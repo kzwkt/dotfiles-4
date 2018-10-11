@@ -1,9 +1,6 @@
 # Install/update Homebrew
 ok brew
 
-# Taps
-ok brew-tap homebrew/dupes
-
 # Install formulae
 ok brew fd
 ok brew fzf
