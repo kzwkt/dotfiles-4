@@ -1,7 +1,7 @@
 cd $HOME/.dotfiles
 
 # Update Bork
-ok github mattly/bork
+ok github kasperisager/bork
 
 # All UNIXes
 include dots.sh
