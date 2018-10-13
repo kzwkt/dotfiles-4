@@ -30,7 +30,7 @@ alias la="ls -laF ${colorflag}"
 alias ls="command ls ${colorflag}"
 
 # Vim aliases
-alias v="vim"
+alias v="vim -c :Files"
 
 # Git aliases
 alias g="git"
