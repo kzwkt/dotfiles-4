@@ -9,8 +9,8 @@ include etc.sh
 include git.sh
 include vim.sh
 include ssh.sh
-include atom.sh
 include beets.sh
+include term.sh
 
 # OS specfic
 case $OSTYPE in

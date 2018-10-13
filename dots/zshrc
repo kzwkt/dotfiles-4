@@ -13,12 +13,6 @@ for file in ~/.{aliases,functions,exports}.sh; do
 done;
 unset file;
 
-# DNVM (https://github.com/aspnet/dnvm)
-source dnvm.sh
-
-# Rbenv (https://github.com/sstephenson/rbenv)
-eval "$(rbenv init -)"
-
 # Load auto completions
 autoload -U compinit && compinit
 zmodload -i zsh/complist

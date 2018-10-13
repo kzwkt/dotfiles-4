@@ -12,9 +12,6 @@ export PATH="$PATH:$GOPATH/bin"
 # Yarn (https://yarnpkg.com/)
 export PATH="$PATH:$HOME/.config/yarn/global/node_modules/.bin"
 
-# Mono (http://www.mono-project.com/)
-export MONO_PATH="/usr/local/lib/mono_assemblies"
-
 # Report terminal type
 export TERM="xterm-256color"
 

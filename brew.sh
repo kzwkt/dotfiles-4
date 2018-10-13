@@ -17,4 +17,4 @@ ok brew vim
 ok brew zsh
 
 # Cleanup
-bake brew cleanup
+brew cleanup

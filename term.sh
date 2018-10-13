@@ -1,1 +1,1 @@
-tic -o ~/.terminfo term/xterm-256color
+tic -o ~/.terminfo ~/.dotfiles/term/xterm-256color
