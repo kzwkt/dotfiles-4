@@ -1,10 +1,3 @@
-[alias]
-  # Remove all branches that have been merged into master
-  cleanup = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-
-  # Initialise a new git repository and copy some configs to it
-  bootstrap ="!git init && cp ~/.editorconfig ."
-
 [apply]
   # Detect whitespace errors when applying a patch
   whitespace = fix

@@ -8,7 +8,7 @@ antibody bundle zsh-users/zsh-syntax-highlighting
 antibody bundle zsh-users/zsh-history-substring-search
 
 # Aliases, functions, and exports
-for file in ~/.{aliases,functions,exports}.sh; do
+for file in ~/.{aliases,functions,exports}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
