@@ -11,12 +11,9 @@ endif
 call plug#begin()
 
 Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-pathogen'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-eunuch'
 
 Plug 'dracula/vim'
@@ -25,7 +22,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'jiangmiao/auto-pairs'
-Plug 'vim-scripts/gitignore'
 
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
@@ -88,9 +84,20 @@ set hidden                        " Enable hidden buffers
 nnoremap k gk
 nnoremap j gj
 
+" Show the list of open buffers
 nmap ; :Buffers<CR>
+
+" Open a file
 nmap <Leader>t :Files<CR>
+
+" Search through files
 nmap <Leader>a :Ack!<Space>
+
+" Unload currently open buffer
+nmap <Leader>d :bd<CR>
+
+" Go to definition
+nmap <Leader>gd :ALEGoToDefinition<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
