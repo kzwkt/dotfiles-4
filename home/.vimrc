@@ -2,6 +2,13 @@
 " Plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+let g:ale_completion_enabled = 1
+let g:ale_sign_column_always = 1
+
+set rtp+=/usr/local/opt/fzf
+
+let g:ackprg = "rg --vimgrep --no-heading"
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -12,19 +19,18 @@ call plug#begin()
 
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
-Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-surround'
 
 Plug 'dracula/vim'
 
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'christoomey/vim-tmux-navigator'
-Plug 'jiangmiao/auto-pairs'
 
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
+Plug 'rafaqz/ranger.vim'
 
 Plug 'w0rp/ale'
 
@@ -37,6 +43,8 @@ call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 runtime plugin/sensible.vim       " Load sensible defaults
+
+set showcmd                       " Show commands as they're entered
 
 set ignorecase                    " Ignore case when searching
 set smartcase                     " When searching try to be smart about cases
@@ -84,6 +92,12 @@ set hidden                        " Enable hidden buffers
 nnoremap k gk
 nnoremap j gj
 
+" Pane navigation
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
 " Show the list of open buffers
 nmap ; :Buffers<CR>
 
@@ -99,10 +113,6 @@ nmap <Leader>d :bd<CR>
 " Go to definition
 nmap <Leader>gd :ALEGoToDefinition<CR>
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugins
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <Leader>h :ALEHover<CR>
 
-set rtp+=/usr/local/opt/fzf
-
-let g:ackprg = "rg --vimgrep --no-heading"
+nmap <Leader>l :RangerEdit<CR>
