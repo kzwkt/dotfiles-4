@@ -9,6 +9,8 @@ set rtp+=/usr/local/opt/fzf
 
 let g:ackprg = "rg --vimgrep --no-heading"
 
+let g:dracula_colorterm = 0
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
