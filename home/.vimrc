@@ -22,6 +22,7 @@ Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 
 Plug 'dracula/vim'
 
@@ -30,7 +31,7 @@ Plug 'editorconfig/editorconfig-vim'
 
 Plug 'junegunn/fzf.vim'
 Plug 'mileszs/ack.vim'
-Plug 'rafaqz/ranger.vim'
+Plug 'francoiscabrol/ranger.vim'
 
 Plug 'w0rp/ale'
 
@@ -114,5 +115,3 @@ nmap <Leader>d :bd<CR>
 nmap <Leader>gd :ALEGoToDefinition<CR>
 
 nmap <Leader>h :ALEHover<CR>
-
-nmap <Leader>l :RangerEdit<CR>
