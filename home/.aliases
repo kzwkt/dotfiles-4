@@ -32,6 +32,9 @@ alias ls="command ls ${colorflag}"
 # Vim aliases
 alias v="vim"
 
+# Ranger aliases
+alias r="ranger"
+
 # Git aliases
 alias g="git"
 alias gl="git pull --prune"
@@ -56,6 +59,9 @@ alias dm="docker-machine"
 
 # Yarn aliases
 alias y="yarn"
+
+# IRSSI aliases
+alias irc="irssi"
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"

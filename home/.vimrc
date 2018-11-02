@@ -11,6 +11,8 @@ let g:ackprg = "rg --vimgrep --no-heading"
 
 let g:dracula_colorterm = 0
 
+let g:ranger_replace_netrw = 1
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
